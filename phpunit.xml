@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.2/phpunit.xsd" bootstrap="vendor/autoload.php" colors="true" cacheResult="true" cacheDirectory=".phpunit.cache">
+  <coverage/>
+  <testsuites>
+    <testsuite name="parallel">
+      <directory suffix="Test.php">./tests</directory>
+      <!-- <directory suffix="Test.php">./vendor/laravel-liberu/action-logger/tests</directory> -->
+      <directory suffix="Test.php">./vendor/laravel-liberu/addresses/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/calendar/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/comments/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/filters/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/forms/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/helpers/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/history-tracker/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/impersonate/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/localisation/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/logs/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/menus/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/notifications/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/people/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/permissions/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/rememberable/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/roles/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/searchable/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/tables/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/track-who/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/tutorials/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/upgrade/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/user-groups/tests</directory>
+    </testsuite>
+    <testsuite name="sync">
+      <directory suffix="Test.php">./vendor/laravel-liberu/cli/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/documents/tests</directory>
+      <directory suffix="Test.php">./vendor/laravel-liberu/files/tests</directory>
+    </testsuite>
+  </testsuites>
+  <php>
+    <server name="APP_ENV" value="testing"/>
+    <server name="BCRYPT_ROUNDS" value="4"/>
+    <server name="CACHE_DRIVER" value="array"/>
+    <server name="DB_CONNECTION" value="sqlite"/>
+    <server name="DB_DATABASE" value=":memory:"/>
+    <server name="MAIL_MAILER" value="array"/>
+    <server name="QUEUE_CONNECTION" value="sync"/>
+    <server name="SESSION_DRIVER" value="array"/>
+    <env name="TELESCOPE_ENABLED" value="false"/>
+    <ini name="memory_limit" value="-1"/>
+  </php>
+  <source>
+    <include>
+      <directory suffix=".php">./app</directory>
+    </include>
+  </source>
+</phpunit>

@@ -1,0 +1,79 @@
+version: '3'
+services:
+
+  #PHP Service
+  app:
+    build:
+      context: .
+      dockerfile: ./.docker/dev/app/Dockerfile
+    user: "www-data:www-data"
+    container_name: app
+    restart: unless-stopped
+    tty: true
+    environment:
+      SERVICE_NAME: app
+      SERVICE_TAGS: dev
+    working_dir: /var/www
+    volumes:
+      - ./:/var/www
+      - ./.docker/dev/app/php.ini:/usr/local/etc/php/conf.d/local.ini
+    networks:
+      - app-network
+
+  #Nginx Service
+  webserver:
+    image: nginx:alpine
+    container_name: webserver
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./:/var/www
+      - ./.docker/dev/webserver/nginx:/etc/nginx/conf.d/
+    networks:
+      - app-network
+    #command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
+  #MySQL Service
+  db:
+    image: mysql:8.0
+    container_name: db
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - ./.docker/dev/db/dbdata:/var/lib/mysql/
+      - ./.docker/dev/db/mysql/my.cnf:/etc/mysql/my.cnf
+    networks:
+      - app-network
+    command:
+      - --sort_buffer_size=1073741824
+  myadmin:
+    image: 'phpmyadmin:latest'
+    ports:
+      - 8080:80
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      PMA_HOST: mysql
+    links:
+      - "db:mysql"
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+#Docker Networks
+networks:
+  app-network:
+    driver: bridge
+#Volumes
+volumes:
+  dbdata:
+    driver: local
