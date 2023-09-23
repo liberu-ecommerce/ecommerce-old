@@ -1,4 +1,4 @@
-## Liberu - Laravel 10 / PHP 8.2 Backend
+## Liberu Ecommerce - Laravel 10 / PHP 8.2 Backend
  ![Latest Stable Version](https://img.shields.io/github/release/laravel-liberu/genealogy.svg) 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/laravel-liberu/genealogy/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/laravel-liberu/genealogy/?branch=master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/laravel-liberu/genealogy/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
