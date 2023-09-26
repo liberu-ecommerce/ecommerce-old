@@ -20,8 +20,9 @@ return new class extends Migration
             $table->integer('total_amount');
             $table->integer('payment_status');
             $table->integer('shipping_status');
-
             $table->timestamps();
+
+            $table->foreign('customer_id')->references('id')->on('customers')->onUpdate('cascade')->onDelete('cascade');
         });
     }
 

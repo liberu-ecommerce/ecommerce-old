@@ -14,13 +14,16 @@ return new class extends Migration
     {
         Schema::create($this->table, function (Blueprint $table) {
             $table->id();
-	    $table->string('name');
-	    $table->text('description');
-	    $table->integer('price');
-	    $table->integer('category_id');
-	    $table->integer('stock_quantity');
-	    $table->string('image_url');
+            $table->string('name');
+            $table->text('description');
+            $table->integer('price');
+            $table->integer('category_id');
+            $table->integer('stock_quantity');
+            $table->string('image_url');
             $table->timestamps();
+
+            $table->foreign('category_id')->references('id')->on('categories')->onUpdate('cascade')->onDelete('cascade');
+             
         });
     }
 
