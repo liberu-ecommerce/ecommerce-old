@@ -1,0 +1,13 @@
+{
+    "name": "Customer",
+    "routePrefix": "customer",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [{
+        "label": "Id",
+        "name": "id",
+        "data": "customers.id",
+        "meta": ["searchable", "sortable"]
+    }
+    ]
+}

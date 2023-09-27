@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Product;
+namespace App\Http\Controllers\Product\Admin;
 
 use App\Forms\Builders\ProductForm;
 use App\Models\Product;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Product;
+namespace App\Http\Controllers\Product\Admin;
 
 use App\Models\Product;
 use Illuminate\Routing\Controller;

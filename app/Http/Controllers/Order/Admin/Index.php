@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Product;
+namespace App\Http\Controllers\Order\Admin;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

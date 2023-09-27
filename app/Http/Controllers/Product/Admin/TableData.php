@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Http\Controllers\Product;
+namespace App\Http\Controllers\Product\Admin;
 
 use App\Tables\Builders\ProductTable;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Tables\Traits\Excel;
+use LaravelEnso\Tables\Traits\Data;
 
-class ExportExcel extends Controller
+class TableData extends Controller
 {
-    use Excel;
+    use Data;
 
     protected string $tableClass = ProductTable::class;
 }

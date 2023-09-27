@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Product;
+namespace App\Http\Controllers\Product\Admin;
 
 use App\Http\Requests\ValidateProductRequest;
 use App\Models\Product;
