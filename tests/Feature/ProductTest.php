@@ -29,7 +29,7 @@ class ProductTest extends TestCase
     }
 
     /** @test */
-    public function can_view_create_Product()
+    public function can_view_create_product()
     {
         $this->get(route($this->permissionGroup.'.create', false))
             ->assertStatus(200)
@@ -37,7 +37,7 @@ class ProductTest extends TestCase
     }
 
     /** @test */
-    public function can_store_Product()
+    public function can_store_product()
     {
         $response = $this->post(
             route('product.store', [], false),
@@ -55,7 +55,7 @@ class ProductTest extends TestCase
     }
 
     /** @test */
-    public function can_update_Product()
+    public function can_update_product()
     {
         $this->testModel->save();
 
