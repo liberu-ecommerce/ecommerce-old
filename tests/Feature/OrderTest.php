@@ -50,7 +50,7 @@ class OrderTest extends TestCase
             ->assertJsonStructure(['message'])
             ->assertJsonFragment([
                 'redirect' => 'order.edit',
-                'param' => ['Order' => $order->id],
+                'param' => ['order' => $order->id],
             ]);
     }
 

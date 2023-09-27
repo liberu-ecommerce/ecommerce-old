@@ -50,7 +50,7 @@ class CustomerTest extends TestCase
             ->assertJsonStructure(['message'])
             ->assertJsonFragment([
                 'redirect' => 'customer.edit',
-                'param' => ['Customer' => $customer->id],
+                'param' => ['customer' => $customer->id],
             ]);
     }
 
