@@ -6,8 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    private string $table = 'orders';
-
+    private string $table = 'product_variation';
     /**
      * Run the migrations.
      */
@@ -15,14 +14,13 @@ return new class extends Migration
     {
         Schema::create($this->table, function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('customer_id');
-            $table->string('order_date');
-            $table->integer('total_amount');
-            $table->integer('payment_status');
-            $table->integer('shipping_status');
+            $table->unsignedBigInteger('variation_id')->nullable();
+            $table->integer('quantity');
+            $table->integer('price');
+            $table->unsignedBigInteger('product_id');
             $table->timestamps();
 
-            $table->foreign('customer_id')->references('id')->on('customers')->onUpdate('cascade')->onDelete('cascade');
+            $table->foreign('product_id')->references('id')->on('products');
         });
     }
 
@@ -31,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists($this->table);
+        Schema::dropIfExists('product_variation');
     }
 };
