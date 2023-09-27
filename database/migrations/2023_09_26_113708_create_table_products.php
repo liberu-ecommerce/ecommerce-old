@@ -15,11 +15,13 @@ return new class extends Migration
         Schema::create($this->table, function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->text('description');
-            $table->integer('price');
-            $table->integer('category_id');
-            $table->integer('stock_quantity');
-            $table->string('image_url');
+            $table->text('short_description');
+            $table->text('long_description');
+            $table->unsignedBigInteger('category_id');
+            $table->boolean('is_variable')->default(0);
+            $table->boolean('is_grouped')->default(0);
+            $table->boolean('is_simple')->default(1);
+            $table->string('featured_image');
             $table->timestamps();
 
             $table->foreign('category_id')->references('id')->on('categories')->onUpdate('cascade')->onDelete('cascade');
