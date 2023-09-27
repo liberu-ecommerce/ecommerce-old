@@ -2,7 +2,7 @@
 
 namespace Tests\Feature;
 
-use App\Models\Product;
+use App\Models\Invoice;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use LaravelEnso\Forms\TestTraits\CreateForm;
 use LaravelEnso\Forms\TestTraits\DestroyForm;
@@ -11,11 +11,11 @@ use LaravelEnso\Tables\Traits\Tests\Datatable;
 use LaravelEnso\Users\Models\User;
 use Tests\TestCase;
 
-class ProductTest extends TestCase
+class InvoiceTest extends TestCase
 {
     use Datatable, DestroyForm, CreateForm, EditForm, RefreshDatabase;
 
-    private $permissionGroup = 'product';
+    private $permissionGroup = 'invoice';
     private $testModel;
 
     protected function setUp(): void
@@ -25,11 +25,11 @@ class ProductTest extends TestCase
         $this->seed()
             ->actingAs(User::first());
 
-        $this->testModel = Product::factory()->make();
+        $this->testModel = Invoice::factory()->make();
     }
 
     /** @test */
-    public function can_view_create_product()
+    public function can_view_create_invoice()
     {
         $this->get(route($this->permissionGroup.'.create', false))
             ->assertStatus(200)
@@ -37,32 +37,32 @@ class ProductTest extends TestCase
     }
 
     /** @test */
-    public function can_store_product()
+    public function can_store_invoice()
     {
         $response = $this->post(
-            route('product.store', [], false),
+            route('invoice.store', [], false),
             $this->testModel->toArray() + []
         );
 
-        $product = Product::where('gid', $this->testModel->gid)->first();
+        $invoice = Invoice::where('gid', $this->testModel->gid)->first();
 
         $response->assertStatus(200)
             ->assertJsonStructure(['message'])
             ->assertJsonFragment([
-                'redirect' => 'product.edit',
-                'param' => ['product' => $product->id],
+                'redirect' => 'invoice.edit',
+                'param' => ['invoice' => $invoice->id],
             ]);
     }
 
     /** @test */
-    public function can_update_product()
+    public function can_update_invoice()
     {
         $this->testModel->save();
 
         $this->testModel->gid = 'updated';
 
         $this->patch(
-            route('product.update', $this->testModel->id, false),
+            route('invoice.update', $this->testModel->id, false),
             $this->testModel->toArray() + []
         )->assertStatus(200)
             ->assertJsonStructure(['message']);
@@ -75,7 +75,7 @@ class ProductTest extends TestCase
     {
         $this->testModel->save();
 
-        $this->get(route('product.options', [
+        $this->get(route('invoice.options', [
             'query' => $this->testModel->name,
             'limit' => 10,
         ], false))
