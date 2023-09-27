@@ -14,7 +14,7 @@ return new class extends Migration
     {
         Schema::create($this->table, function (Blueprint $table) {
             $table->id();
-            $table->integer('review');
+            $table->text('review');
             $table->unsignedBigInteger('product_id');
             $table->unsignedBigInteger('customer_id');
             $table->timestamps();
