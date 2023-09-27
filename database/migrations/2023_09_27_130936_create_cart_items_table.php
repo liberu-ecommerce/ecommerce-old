@@ -1,12 +1,13 @@
 <?php
-
+    
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    private string $table = 'products';
+    private string $table = 'cart_items';
+
     /**
      * Run the migrations.
      */
@@ -14,16 +15,15 @@ return new class extends Migration
     {
         Schema::create($this->table, function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->text('description');
-            $table->integer('price');
-            $table->integer('category_id');
-            $table->integer('stock_quantity');
-            $table->string('image_url');
+            $table->integer('user_id');
+            $table->integer('product_id');
+            $table->integer('quantity');
+            $table->decimal('price', 10, 2);
+            $table->integer('quantity');
             $table->timestamps();
 
-            $table->foreign('category_id')->references('id')->on('product_categories')->onUpdate('cascade')->onDelete('cascade');
-             
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('product_id')->references('product_id')->on('products')->onDelete('cascade')->onUpdate('cascade');
         });
     }
 
