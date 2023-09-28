@@ -29,7 +29,7 @@ class CustomerTest extends TestCase
     }
 
     /** @test */
-    public function can_view_create_Customer()
+    public function can_view_create_customer()
     {
         $this->get(route($this->permissionGroup.'.create', false))
             ->assertStatus(200)
@@ -37,7 +37,7 @@ class CustomerTest extends TestCase
     }
 
     /** @test */
-    public function can_store_Customer()
+    public function can_store_customer()
     {
         $response = $this->post(
             route('customer.store', [], false),
@@ -50,12 +50,12 @@ class CustomerTest extends TestCase
             ->assertJsonStructure(['message'])
             ->assertJsonFragment([
                 'redirect' => 'customer.edit',
-                'param' => ['Customer' => $customer->id],
+                'param' => ['customer' => $customer->id],
             ]);
     }
 
     /** @test */
-    public function can_update_Customer()
+    public function can_update_customer()
     {
         $this->testModel->save();
 
