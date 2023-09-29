@@ -29,7 +29,7 @@ class OrderTest extends TestCase
     }
 
     /** @test */
-    public function can_view_create_Order()
+    public function can_view_create_order()
     {
         $this->get(route($this->permissionGroup.'.create', false))
             ->assertStatus(200)
@@ -37,7 +37,7 @@ class OrderTest extends TestCase
     }
 
     /** @test */
-    public function can_store_Order()
+    public function can_store_order()
     {
         $response = $this->post(
             route('order.store', [], false),
@@ -50,12 +50,12 @@ class OrderTest extends TestCase
             ->assertJsonStructure(['message'])
             ->assertJsonFragment([
                 'redirect' => 'order.edit',
-                'param' => ['Order' => $order->id],
+                'param' => ['order' => $order->id],
             ]);
     }
 
     /** @test */
-    public function can_update_Order()
+    public function can_update_order()
     {
         $this->testModel->save();
 

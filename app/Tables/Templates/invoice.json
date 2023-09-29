@@ -1,0 +1,13 @@
+{
+    "name": "Invoice",
+    "routePrefix": "invoice",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [{
+        "label": "Id",
+        "name": "id",
+        "data": "invoices.id",
+        "meta": ["searchable", "sortable"]
+    }
+    ]
+}
