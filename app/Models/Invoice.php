@@ -4,20 +4,19 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\Order;
 
-class ProductCategory extends Model
+class Invoice extends Model
 {
     use HasFactory;
 
-    protected $table = 'product_categories';
+    protected $table = 'invoices';
 
     protected $fillable = [
-        'name',   
     ];
 
-    public function products()
+    public function order()
     {
-        return $this->hasMany(Product::class);
+        return $this->belongsTo(Order::class);
     }
-
 }
