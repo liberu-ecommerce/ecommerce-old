@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3a1452d0911cb515a9e74df76a7c875b",
+    "content-hash": "81862c1ee26fb02c79455a48f900cda6",
     "packages": [
         {
             "name": "barryvdh/laravel-snappy",
@@ -4385,24 +4385,21 @@
         },
         {
             "name": "laravel-liberu/pdf",
-            "version": "v2.1.9",
+            "version": "v9.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/pdf.git",
-                "reference": "7479e45a4f9139ed876d16acce2384812d106659"
+                "reference": "e3d77d8573e401bef716d487391cc50fbf0a51c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/pdf/zipball/7479e45a4f9139ed876d16acce2384812d106659",
-                "reference": "7479e45a4f9139ed876d16acce2384812d106659",
+                "url": "https://api.github.com/repos/laravel-liberu/pdf/zipball/e3d77d8573e401bef716d487391cc50fbf0a51c8",
+                "reference": "e3d77d8573e401bef716d487391cc50fbf0a51c8",
                 "shasum": ""
             },
             "require": {
                 "barryvdh/laravel-snappy": "^1.0",
                 "php": ">=7.4"
-            },
-            "require-dev": {
-                "rector/rector": "^0.17.0"
             },
             "type": "library",
             "extra": {
@@ -4424,40 +4421,34 @@
                 {
                     "name": "Ionut Pirvulescu",
                     "email": "ionut.pirvulescu@earthlink.ro",
-                    "homepage": "https://laravel-liberu.com",
+                    "homepage": "https://laravel-enso.com",
                     "role": "Developer"
                 },
                 {
                     "name": "Mihai Ocneanu",
                     "email": "mihai.ocneanu@gmail.com",
-                    "homepage": "https://laravel-liberu.com",
+                    "homepage": "https://laravel-enso.com",
                     "role": "Developer"
                 },
                 {
                     "name": "Adrian Ocneanu",
                     "email": "aocneanu@gmail.com",
-                    "homepage": "https://laravel-liberu.com",
+                    "homepage": "https://laravel-enso.com",
                     "role": "Developer"
                 }
             ],
             "description": "PDF for Laravel Enso",
-            "homepage": "https://github.com/laravel-liberu/pdf",
+            "homepage": "https://github.com/laravel-enso/pdf",
             "keywords": [
                 "laravel",
-                "laravel-liberu",
+                "laravel-enso",
                 "pdf"
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/pdf/issues",
-                "source": "https://github.com/laravel-liberu/pdf/tree/v2.1.9"
+                "source": "https://github.com/laravel-liberu/pdf/tree/v9.0.2"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/laravel-liberu",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-07-04T09:17:35+00:00"
+            "time": "2022-03-07T07:36:50+00:00"
         },
         {
             "name": "laravel-liberu/people",
@@ -5690,16 +5681,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.25.1",
+            "version": "v10.25.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "cd0a440f43eaaad247d6f6575d3782c156ec913c"
+                "reference": "6014dd456b414b305fb0b408404efdcec18e64bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/cd0a440f43eaaad247d6f6575d3782c156ec913c",
-                "reference": "cd0a440f43eaaad247d6f6575d3782c156ec913c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/6014dd456b414b305fb0b408404efdcec18e64bc",
+                "reference": "6014dd456b414b305fb0b408404efdcec18e64bc",
                 "shasum": ""
             },
             "require": {
@@ -5886,7 +5877,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-09-27T01:29:32+00:00"
+            "time": "2023-09-28T14:08:59+00:00"
         },
         {
             "name": "laravel/octane",
@@ -5977,16 +5968,16 @@
         },
         {
             "name": "laravel/prompts",
-            "version": "v0.1.9",
+            "version": "v0.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/prompts.git",
-                "reference": "b603410e7af1040aa2d29e0a2cdca570bb63e827"
+                "reference": "37ed55f6950d921a87d5beeab16d03f8de26b060"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/prompts/zipball/b603410e7af1040aa2d29e0a2cdca570bb63e827",
-                "reference": "b603410e7af1040aa2d29e0a2cdca570bb63e827",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/37ed55f6950d921a87d5beeab16d03f8de26b060",
+                "reference": "37ed55f6950d921a87d5beeab16d03f8de26b060",
                 "shasum": ""
             },
             "require": {
@@ -6028,9 +6019,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
-                "source": "https://github.com/laravel/prompts/tree/v0.1.9"
+                "source": "https://github.com/laravel/prompts/tree/v0.1.10"
             },
-            "time": "2023-09-26T13:14:20+00:00"
+            "time": "2023-09-29T07:26:07+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -16955,5 +16946,5 @@
         "php": ">=8.2.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
