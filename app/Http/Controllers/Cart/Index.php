@@ -12,7 +12,7 @@ class Index extends Controller
         $cart = $request->session()->get('cart');
 
         return [
-            'cart' => $cart,      
+            'cart' => $cart,
         ];
     }
 }
