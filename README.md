@@ -1,11 +1,10 @@
 ## Liberu Ecommerce - Laravel 10 / PHP 8.2 Backend
- ![Latest Stable Version](https://img.shields.io/github/release/laravel-liberu/genealogy.svg) 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/laravel-liberu/genealogy/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/laravel-liberu/genealogy/?branch=master)
-[![Code Intelligence Status](https://scrutinizer-ci.com/g/laravel-liberu/genealogy/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+ ![Latest Stable Version](https://img.shields.io/github/release/laravel-liberu/ecommerce.svg) 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/laravel-liberu/ecommerce/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/laravel-liberu/ecommerce/?branch=master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/laravel-liberu/ecommerce/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 [![StyleCI](https://github.styleci.io/repos/135390590/shield?branch=master)](https://github.styleci.io/repos/135390590)
-[![CodeFactor](https://www.codefactor.io/repository/github/familytree365/genealogy/badge/master)](https://www.codefactor.io/repository/github/familytree365/genealogy/overview/master)
-[![codebeat badge](https://codebeat.co/badges/911f9e33-212a-4dfa-a860-751cdbbacff7)](https://codebeat.co/projects/github-com-modulargenealogy-genealogy-master)
-[![CircleCI](https://circleci.com/gh/laravel-liberu/genealogy.svg?style=svg)](https://circleci.com/gh/laravel-liberu/genealogy)
+[![CodeFactor](https://www.codefactor.io/repository/github/familytree365/ecommerce/badge/master)](https://www.codefactor.io/repository/github/laravel-liberu/ecommerce/overview/master)
+[![CircleCI](https://circleci.com/gh/laravel-liberu/ecommerce.svg?style=svg)](https://circleci.com/gh/laravel-liberu/ecommerce)
 
 <!--/h-->
 ### Description
