@@ -13,7 +13,7 @@ jobs:
       # Specify the version you desire here
       - image: cimg/php:8.2.7
         environment:
-          working_directory: ~/genealogy
+          working_directory: ~/ecommerce
           DB_CONNECTION: mysql
           DB_HOST: 127.0.0.1
           DB_PORT: 3306
@@ -33,7 +33,7 @@ jobs:
           MYSQL_ROOT_HOST: "%"
           DB_HOST: 127.0.0.1
           DB_PORT: 3306
-          working_directory: ~/genealogy
+          working_directory: ~/ecommerce
       # - image: redis:2.8.19
     steps:
       - checkout
