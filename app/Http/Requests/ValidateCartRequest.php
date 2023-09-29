@@ -16,7 +16,7 @@ class ValidateCartRequest extends FormRequest
     {
         $this->route('cart');
         return [
-            'product_id' => 'required|exists:cartitems,i',
+            'product_id' => 'required|exists:cartitems,id',
             'quantity' => 'required|integer|min:1',
             'price' => 'nullable|numeric|min:0',
         ];

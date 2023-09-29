@@ -2,17 +2,40 @@
 
 namespace App\Http\Controllers\Cart;
 
-use App\Http\Controllers\Controller;
+use App\Models\CartItem;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class Destroy extends Controller
 {
     public function __invoke(Request $request)
     {
-        $request->session()->forget('cart');
+        $sessionId = $request->session()->getId();
+        $productId = $request->input('product_id');
+        $user = auth()->user();
+
+        if ($user) {
+            $cartItem = CartItem::where('user_id', $user->id)
+                ->where('product_id', $productId)
+                ->first();
+        } else {
+
+            $cartItem = CartItem::where('session_id', $sessionId)
+                ->where('product_id', $productId)
+                ->first();
+        }
+
+        if ($cartItem) {
+            $cartItem->delete();
+
+            return [
+                'message' => __('The product was successfully removed from the cart'),
+                'redirect' => 'cart.index',
+            ];
+        }
 
         return [
-            'message' => __('The cart was successfully deleted'),
+            'message' => __('Product not found in the cart'),
             'redirect' => 'cart.index',
         ];
     }

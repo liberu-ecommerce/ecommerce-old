@@ -10,6 +10,10 @@ class Edit extends Controller
    
     public function __invoke(Request $request)
     {
-        
+        $cart = $request->session()->get('cart');
+
+        return [
+            'cart' => $cart,
+        ];
     }
 }
