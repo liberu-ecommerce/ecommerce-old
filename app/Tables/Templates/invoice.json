@@ -3,10 +3,41 @@
     "routePrefix": "invoice",
     "crtNo": true,
     "buttons": ["excel", "create", "show", "edit", "destroy"],
-    "columns": [{
+    "columns": [
+    {
         "label": "Id",
         "name": "id",
         "data": "invoices.id",
+        "meta": ["searchable", "sortable"]
+    },
+    {
+        "label": "Customer Id",
+        "name": "customer_id",
+        "data": "invoices.customer_id",
+        "meta": ["searchable", "sortable"]
+    },
+    {
+        "label": "Order Id",
+        "name": "order_id",
+        "data": "invoices.order_id",
+        "meta": ["searchable", "sortable"]
+    },
+    {
+        "label": "Invoice Date",
+        "name": "invoice_date",
+        "data": "invoices.invoice_date",
+        "meta": ["searchable", "sortable"]
+    },
+    {
+        "label": "Total Amount",
+        "name": "total_amount",
+        "data": "invoices.total_amount",
+        "meta": ["searchable", "sortable"]
+    },
+    {
+        "label": "Payment Status",
+        "name": "payment_status",
+        "data": "invoices.payment_status",
         "meta": ["searchable", "sortable"]
     }
     ]

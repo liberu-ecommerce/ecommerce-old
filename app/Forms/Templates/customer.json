@@ -42,7 +42,7 @@
                 }
             },
             {
-                "label": "Adress",
+                "label": "Address",
                 "name": "address",
                 "value": null,
                 "meta": {

@@ -3,10 +3,41 @@
     "routePrefix": "order",
     "crtNo": true,
     "buttons": ["excel", "create", "show", "edit", "destroy"],
-    "columns": [{
+    "columns": [
+    {
         "label": "Id",
         "name": "id",
         "data": "orders.id",
+        "meta": ["searchable", "sortable"]
+    },
+    {
+        "label": "Customer Id",
+        "name": "customer_id",
+        "data": "orders.customer_id",
+        "meta": ["searchable", "sortable"]
+    },
+    {
+        "label": "Order Date",
+        "name": "order_date",
+        "data": "orders.order_date",
+        "meta": ["searchable", "sortable"]
+    },
+    {
+        "label": "Total Amount",
+        "name": "total_amount",
+        "data": "orders.total_amount",
+        "meta": ["searchable", "sortable"]
+    },
+    {
+        "label": "Payment Status",
+        "name": "payment_status",
+        "data": "orders.payment_status",
+        "meta": ["searchable", "sortable"]
+    },
+    {
+        "label": "Shipping Status",
+        "name": "shipping_status",
+        "data": "orders.shipping_status",
         "meta": ["searchable", "sortable"]
     }
     ]
