@@ -14,7 +14,7 @@ class InvoiceTable implements Table
     {
         return Invoice::selectRaw('
             invoices.id, invoices.customer_id, invoices.order_id, invoices.invoice_date,
-            invoices.total_amout, invoices.payment_status
+            invoices.total_amount, invoices.payment_status
             ')->join('customers', 'customers.id', '=', 'invoices.customer_id')
             ->join('orders', 'orders.id', '=', 'invoices.order_id');
     }

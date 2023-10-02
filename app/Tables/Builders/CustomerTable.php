@@ -10,11 +10,13 @@ class CustomerTable implements Table
 {
     protected const TemplatePath = __DIR__.'/../Templates/customer.json';
 
-    public function query(): Builder
+    public function query()
     {
         return Customer::selectRaw('
-            subms.id
-        ');
+            customers.id, customers.first_name, customers.last_name, customers.email,
+            customers.phone_number, customers.address, customers.city, customers.state,
+	    customers.postal_code
+            ');
     }
 
     public function templatePath(): string

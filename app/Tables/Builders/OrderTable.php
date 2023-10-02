@@ -12,9 +12,10 @@ class OrderTable implements Table
 
     public function query()
     {
-        return Order::selectRaw('
-            orders.id, orders.customer_id, orders.order_date, orders.total_amount, orders.payment_s>
-            ')->join('customers', 'customers.id', '=', 'orders.customer_id');
+	    return Order::selectRaw('
+            orders.id, orders.customer_id, orders.order_date, orders.total_amount,
+	    orders.payment_status')
+	    ->join('customers', 'customers.id', '=', 'orders.customer_id');
     }
     public function templatePath(): string
     {
