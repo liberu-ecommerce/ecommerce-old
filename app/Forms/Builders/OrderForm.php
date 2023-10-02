@@ -11,11 +11,9 @@ class OrderForm
 
     protected Form $form;
 
-    public function query()
+    public function __construct()
     {
-        return Order::selectRaw('
-            orders.id, orders.customer_id, orders.order_date, orders.total_amount, orders.payment_status
-            ')->join('customers', 'customers.id', '=', 'orders.customer_id');
+        $this->form = new Form(static::TemplatePath);
     }
 
     public function create()
