@@ -19,6 +19,7 @@ class ValidateProductRequest extends FormRequest
             'name' => 'required|max:255',
             'short_description' => 'required',
             'long_description' => 'required',
+            'price' => 'required|numeric',
             'category_id' => 'required|exists:product_categories,id',
             'is_variable' => 'boolean',
             'is_grouped' => 'boolean',
