@@ -16,15 +16,11 @@ class ValidateInvoiceRequest extends FormRequest
         $this->route('invoice');
 
         return [
-
-            'group' => 'required|max:50',
-            'gid' => 'required|max:50',
-            'name' => 'required|max:50',
-            'addr_id' => 'required|max:50',
-            'rin' => 'required|max:50',
-            'rfn' => 'required|max:50',
-            'lang' => 'required|max:50',
-            'phon' => 'required|max:50',
+            'customer_id' => 'required|exists:customers,id',
+            'order_id' => 'required|exists:orders,id',
+            'invoice_date' => 'required|date',
+            'total_amount' => 'required|numeric|min:0',
+            'payment_status' => 'required|in:unpaid,paid',
         ];
     }
 }
