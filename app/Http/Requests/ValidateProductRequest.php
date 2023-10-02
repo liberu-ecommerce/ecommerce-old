@@ -16,15 +16,14 @@ class ValidateProductRequest extends FormRequest
         $this->route('product');
 
         return [
-
-            'group' => 'required|max:50',
-            'gid' => 'required|max:50',
-            'name' => 'required|max:50',
-            'addr_id' => 'required|max:50',
-            'rin' => 'required|max:50',
-            'rfn' => 'required|max:50',
-            'lang' => 'required|max:50',
-            'phon' => 'required|max:50',
+            'name' => 'required|max:255',
+            'short_description' => 'required',
+            'long_description' => 'required',
+            'category_id' => 'required|exists:product_categories,id',
+            'is_variable' => 'boolean',
+            'is_grouped' => 'boolean',
+            'is_simple' => 'boolean',
+            'featured_image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
         ];
     }
 }

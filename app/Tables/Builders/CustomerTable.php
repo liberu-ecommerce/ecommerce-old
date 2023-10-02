@@ -10,7 +10,7 @@ class CustomerTable implements Table
 {
     protected const TemplatePath = __DIR__.'/../Templates/customer.json';
 
-    public function query()
+    public function query(): Builder
     {
         return Customer::selectRaw('
             customers.id, customers.first_name, customers.last_name, customers.email,

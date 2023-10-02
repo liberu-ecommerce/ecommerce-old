@@ -13,11 +13,13 @@ class Product extends Model
 
     protected $fillable = [
         'name',
-        'description',
-        'price',
+        'short_description',
+        'long_description',
         'category_id',
-        'stock_quantity',
-        'image_url',
+        'is_variable',
+        'is_grouped',
+        'is_simple',
+        'featured_image',
     ];
 
     public function categories()
@@ -34,5 +36,4 @@ class Product extends Model
     {
         return $this->hasMany(OrderItem::class);
     }
-
 }
