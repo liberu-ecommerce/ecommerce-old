@@ -15,7 +15,6 @@ class Product extends Model
         'name',
         'short_description',
         'long_description',
-        'price',
         'category_id',
         'is_variable',
         'is_grouped',

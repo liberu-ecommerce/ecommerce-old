@@ -17,7 +17,6 @@ return new class extends Migration
             $table->string('name');
             $table->text('short_description');
             $table->text('long_description');
-            $table->decimal('price', 10, 2)->default(0.00);
             $table->unsignedBigInteger('category_id');
             $table->boolean('is_variable')->default(0);
             $table->boolean('is_grouped')->default(0);

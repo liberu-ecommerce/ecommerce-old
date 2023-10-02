@@ -38,15 +38,6 @@
           }
         },
         {
-          "label": "Product Price",
-          "name": "product_price",
-          "value": null,
-          "meta": {
-            "type": "input",
-            "content": "number"
-          }
-        },
-        {
           "label": "Product Category ID",
           "name": "product_category_id",
           "value": null,
