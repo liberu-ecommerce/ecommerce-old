@@ -10,7 +10,7 @@ class InvoiceTable implements Table
 {
     protected const TemplatePath = __DIR__.'/../Templates/invoice.json';
 
-    public function query()
+    public function query(): Builder   
     {
         return Invoice::selectRaw('
             invoices.id, invoices.customer_id, invoices.order_id, invoices.invoice_date,

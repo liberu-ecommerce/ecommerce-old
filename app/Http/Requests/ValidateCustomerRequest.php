@@ -17,14 +17,14 @@ class ValidateCustomerRequest extends FormRequest
 
         return [
 
-            '' => 'required|max:50',
-            'gid' => 'required|max:50',
-            'name' => 'required|max:50',
-            'addr_id' => 'required|max:50',
-            'rin' => 'required|max:50',
-            'rfn' => 'required|max:50',
-            'lang' => 'required|max:50',
-            'phon' => 'required|max:50',
+            'first_name' => 'required|max:50',
+            'last_name' => 'required|max:50',
+            'email' => 'required|email|unique:customers,email',
+            'phone_number' => 'required|max:50',
+            'address' => 'required|max:50',
+            'city' => 'required|max:50',
+            'state' => 'required|max:50',
+            'postal_code' => 'required|max:50',
         ];
     }
 }

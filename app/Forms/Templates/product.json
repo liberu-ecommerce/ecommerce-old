@@ -5,62 +5,84 @@
     {
       "tab": "Product",
       "columns": 3,
-        "fields": [{
-            "label": "Name",
-            "name": "name",
-            "value": null,
-            "meta": {
-                "type": "input",
-                "content": "text"
-            }
+      "fields": [
+        {
+          "label": "Product Name",
+          "name": "name",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
         },
-            {
-                "label": "Description",
-                "name": "description",
-                "value": null,
-                "meta": {
-                    "type": "input",
-                    "content": "text"
-                }
-            },
-            {
-                "label": "Price",
-                "name": "price",
-                "value": null,
-                "meta": {
-                    "type": "input",
-                    "content": "number"
-                }
-            },
-            {
-                "label": "Cateqory",
-                "name": "category_id",
-                "value": null,
-                "meta": {
-                    "type": "input",
-                    "content": "number",
-                    "source": "category.id"
-                }
-            },
-            {
-                "label": "Stock Quantity",
-                "name": "stock_quantity",
-                "value": null,
-                "meta": {
-                    "type": "input",
-                    "content": "number"
-                }
-            },
-            {
-                "label": "Image",
-                "name": "image",
-                "value": null,
-                "meta": {
-                    "type": "input",
-                    "content": "file"
-
-                }
-            }   
-        ]
-    }]
+        {
+          "label": "Short Description",
+          "name": "short_description",
+          "value": null,
+          "meta": {
+            "type": "textarea",
+            "placeholder": "Enter Short Description for Product",
+            "rows":3,
+            "resize": true
+          }
+        },
+        {
+          "label": "Long Description",
+          "name": "long_description",
+          "value": null,
+          "meta": {
+            "type": "textarea",
+            "placeholder": "Enter Long Description for Product",
+            "rows": 5,
+            "resize": true
+          }
+        },
+        {
+          "label": "Product Category ID",
+          "name": "product_category_id",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "number",
+            "source": "product_categories.id"
+          }
+        },
+        {
+          "label": "Is Variable",
+          "name": "is_variable",
+          "value": null,
+          "meta": {
+            "type": "boolean"
+           
+          }
+        },
+        {
+          "label": "Is Grouped",
+          "name": "is_grouped",
+          "value": null,
+          "meta": {
+            "type": "boolean"
+          }
+        },
+        {
+          "label": "Is Simple",
+          "name": "is_simple",
+          "value": null,
+          "meta": {
+            "type": "boolean"
+           
+          }
+        },
+        {
+          "label": "Featured Image",
+          "name": "featured_image",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "file"
+          }
+        }
+      ]
+    }
+    ]
 }

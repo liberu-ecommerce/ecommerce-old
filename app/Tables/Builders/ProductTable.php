@@ -10,7 +10,7 @@ class ProductTable implements Table
 {
     protected const TemplatePath = __DIR__.'/../Templates/product.json';
 
-    public function query()
+    public function query(): Builder
     {
         return Product::selectRaw('
             products.id, products.name, products.description, products.price,
