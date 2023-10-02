@@ -6,8 +6,8 @@
       "tab": "Customer",
       "columns": 3,
         "fields": [{
-            "label": "Group",
-            "name": "group",
+            "label": "First name",
+            "name": "first_name",
             "value": null,
             "meta": {
                 "type": "input",
@@ -15,8 +15,8 @@
             }
         },
             {
-                "label": "Gid",
-                "name": "gid",
+                "label": "Last name",
+                "name": "last_name",
                 "value": null,
                 "meta": {
                     "type": "input",
@@ -24,8 +24,26 @@
                 }
             },
             {
-                "label": "Name",
-                "name": "name",
+                "label": "Email",
+                "name": "email",
+                "value": null,
+                "meta": {
+                    "type": "text",
+                    "content": "email"
+                }
+            },
+            {
+                "label": "Phone",
+                "name": "phone_number",
+                "value": null,
+                "meta": {
+                    "type": "text",
+                    "content": "number"
+                }
+            },
+            {
+                "label": "Adress",
+                "name": "address",
                 "value": null,
                 "meta": {
                     "type": "input",
@@ -33,26 +51,8 @@
                 }
             },
             {
-                "label": "Address Id",
-                "name": "addr_id",
-                "value": null,
-                "meta": {
-                    "type": "input",
-                    "content": "text"
-                }
-            },
-            {
-                "label": "Rin",
-                "name": "rin",
-                "value": null,
-                "meta": {
-                    "type": "input",
-                    "content": "text"
-                }
-            },
-            {
-                "label": "Rfn",
-                "name": "rfn",
+                "label": "City",
+                "name": "city",
                 "value": null,
                 "meta": {
                     "type": "input",
@@ -61,8 +61,8 @@
             },
 
             {
-                "label": "Language",
-                "name": "lang",
+                "label": "State",
+                "name": "state",
                 "value": null,
                 "meta": {
                     "type": "input",
@@ -70,12 +70,12 @@
                 }
             },
             {
-                "label": "Phone",
-                "name": "phone",
+                "label": "Postal code",
+                "name": "postal_code",
                 "value": null,
                 "meta": {
                     "type": "input",
-                    "content": "text"
+                    "content": "number"
                 }
             }
         ]

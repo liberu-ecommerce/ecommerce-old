@@ -6,8 +6,8 @@
       "tab": "Product",
       "columns": 3,
         "fields": [{
-            "label": "Group",
-            "name": "group",
+            "label": "Name",
+            "name": "name",
             "value": null,
             "meta": {
                 "type": "input",
@@ -15,8 +15,8 @@
             }
         },
             {
-                "label": "Gid",
-                "name": "gid",
+                "label": "Description",
+                "name": "description",
                 "value": null,
                 "meta": {
                     "type": "input",
@@ -24,60 +24,43 @@
                 }
             },
             {
-                "label": "Name",
-                "name": "name",
+                "label": "Price",
+                "name": "price",
                 "value": null,
                 "meta": {
                     "type": "input",
-                    "content": "text"
+                    "content": "number"
                 }
             },
             {
-                "label": "Address Id",
-                "name": "addr_id",
+                "label": "Cateqory",
+                "name": "category_id",
                 "value": null,
                 "meta": {
                     "type": "input",
-                    "content": "text"
+                    "content": "number",
+                    "source": "category.id"
                 }
             },
             {
-                "label": "Rin",
-                "name": "rin",
+                "label": "Stock Quantity",
+                "name": "stock_quantity",
                 "value": null,
                 "meta": {
                     "type": "input",
-                    "content": "text"
+                    "content": "number"
                 }
             },
             {
-                "label": "Rfn",
-                "name": "rfn",
+                "label": "Image",
+                "name": "image",
                 "value": null,
                 "meta": {
                     "type": "input",
-                    "content": "text"
-                }
-            },
+                    "content": "file"
 
-            {
-                "label": "Language",
-                "name": "lang",
-                "value": null,
-                "meta": {
-                    "type": "input",
-                    "content": "text"
                 }
-            },
-            {
-                "label": "Phone",
-                "name": "phone",
-                "value": null,
-                "meta": {
-                    "type": "input",
-                    "content": "text"
-                }
-            }
+            }   
         ]
     }]
 }

@@ -7,13 +7,15 @@ use LaravelEnso\Forms\Services\Form;
 
 class OrderForm
 {
-    protected const TemplatePath = __DIR__.'/../Templates/order.json';
+    protected const TemplatePath = __DIR__ . '/../Templates/order.json';
 
     protected Form $form;
 
-    public function __construct()
+    public function query()
     {
-        $this->form = new Form(static::TemplatePath);
+        return Order::selectRaw('
+            orders.id, orders.customer_id, orders.order_date, orders.total_amount, orders.payment_status
+            ')->join('customers', 'customers.id', '=', 'orders.customer_id');
     }
 
     public function create()
@@ -24,5 +26,10 @@ class OrderForm
     public function edit(Order $order)
     {
         return $this->form->edit($order);
+    }
+
+    public function templatePath()
+    {
+        return $this->form = new Form(static::TemplatePath);
     }
 }

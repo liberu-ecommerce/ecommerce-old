@@ -7,13 +7,17 @@ use LaravelEnso\Forms\Services\Form;
 
 class InvoiceForm
 {
-    protected const TemplatePath = __DIR__.'/../Templates/invoice.json';
+    protected const TemplatePath = __DIR__ . '/../Templates/invoice.json';
 
     protected Form $form;
 
-    public function __construct()
+    public function query()
     {
-        $this->form = new Form(static::TemplatePath);
+        return Invoice::selectRaw('
+            invoices.id, invoices.customer_id, invoices.order_id, invoices.invoice_date,
+            invoices.total_amout, invoices.payment_status 
+            ')->join('customers', 'customers.id', '=', 'invoices.customer_id')
+            ->join('orders', 'orders.id', '=', 'invoices.order_id');
     }
 
     public function create()
@@ -24,5 +28,10 @@ class InvoiceForm
     public function edit(Invoice $invoice)
     {
         return $this->form->edit($invoice);
+    }
+
+    public function TemplatePath()
+    {
+        return $this->form = new Form(static::TemplatePath);
     }
 }

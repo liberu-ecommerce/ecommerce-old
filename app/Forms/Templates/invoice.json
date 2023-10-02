@@ -6,78 +6,56 @@
       "tab": "Invoice",
       "columns": 3,
         "fields": [{
-            "label": "Group",
-            "name": "group",
+            "label": "Customer id",
+            "name": "customer_id",
             "value": null,
             "meta": {
                 "type": "input",
-                "content": "text"
+                "content": "number",
+                "source": "customer.id"
             }
         },
             {
-                "label": "Gid",
-                "name": "gid",
+                "label": "Order id",
+                "name": "order_id",
                 "value": null,
                 "meta": {
                     "type": "input",
-                    "content": "text"
+                    "content": "number",
+                    "source": "invoice.order_id"
                 }
             },
             {
-                "label": "Name",
-                "name": "name",
+                "label": "Date",
+                "name": "invoice_date",
                 "value": null,
                 "meta": {
-                    "type": "input",
-                    "content": "text"
-                }
-            },
-            {
-                "label": "Address Id",
-                "name": "addr_id",
-                "value": null,
-                "meta": {
-                    "type": "input",
-                    "content": "text"
-                }
-            },
-            {
-                "label": "Rin",
-                "name": "rin",
-                "value": null,
-                "meta": {
-                    "type": "input",
-                    "content": "text"
-                }
-            },
-            {
-                "label": "Rfn",
-                "name": "rfn",
-                "value": null,
-                "meta": {
-                    "type": "input",
-                    "content": "text"
-                }
-            },
+                    "type": "datepicker",
+                    "time": true,
+                    "format" : "d/m/Y H:m",
+                    "source": "invoice.invoice_date"
 
-            {
-                "label": "Language",
-                "name": "lang",
-                "value": null,
-                "meta": {
-                    "type": "input",
-                    "content": "text"
+                    
                 }
             },
             {
-                "label": "Phone",
-                "name": "phone",
+                "label": "Total amount",
+                "name": "total_amount",
+                "value": null,
+                "meta": {
+                    "type": "input",
+                    "content": "number"
+                }
+            },
+            {
+                "label": "Payment Status",
+                "name": "payment_status",
                 "value": null,
                 "meta": {
                     "type": "input",
                     "content": "text"
                 }
-            }
+            }            
         ]
     }]
 }

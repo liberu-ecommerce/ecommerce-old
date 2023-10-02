@@ -17,7 +17,7 @@ class ValidateCustomerRequest extends FormRequest
 
         return [
 
-            'group' => 'required|max:50',
+            '' => 'required|max:50',
             'gid' => 'required|max:50',
             'name' => 'required|max:50',
             'addr_id' => 'required|max:50',

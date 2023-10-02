@@ -6,17 +6,39 @@
       "tab": "Order",
       "columns": 3,
         "fields": [{
-            "label": "Group",
-            "name": "group",
+            "label": "Customer Id",
+            "name": "customer_id",
             "value": null,
             "meta": {
                 "type": "input",
-                "content": "text"
+                "content": "number",
+                "source": "customer.id"
             }
         },
             {
-                "label": "Gid",
-                "name": "gid",
+                "label": "Order date",
+                "name": "order_date",
+                "value": null,
+                "meta": {
+                    "type": "datepicker",
+                    "time" : true,
+                    "format" : "d/m/Y H:m"
+                    
+                }
+            },
+            {
+                "label": "Total amount",
+                "name": "total_amount",
+                "value": null,
+                "meta": {
+                    "type": "input",
+                    "content": "number"
+
+                }
+            },
+            {
+                "label": "Payment status",
+                "name": "payment_status",
                 "value": null,
                 "meta": {
                     "type": "input",
@@ -24,26 +46,8 @@
                 }
             },
             {
-                "label": "Name",
-                "name": "name",
-                "value": null,
-                "meta": {
-                    "type": "input",
-                    "content": "text"
-                }
-            },
-            {
-                "label": "Address Id",
-                "name": "addr_id",
-                "value": null,
-                "meta": {
-                    "type": "input",
-                    "content": "text"
-                }
-            },
-            {
-                "label": "Rin",
-                "name": "rin",
+                "label": "Shipping status",
+                "name": "shipping_status",
                 "value": null,
                 "meta": {
                     "type": "input",
