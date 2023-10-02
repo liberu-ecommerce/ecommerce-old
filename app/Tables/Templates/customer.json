@@ -4,53 +4,53 @@
     "crtNo": true,
     "buttons": ["excel", "create", "show", "edit", "destroy"],
     "columns": [
-    {
-        "label": "Id",
-        "name": "id",
-        "data": "customers.id",
-        "meta": ["searchable", "sortable"]
-    },
-    {
-        "label": "First Name",
-        "name": "first_name",
-        "data": "customers.first_name",
-        "meta": ["searchable", "sortable"]
-    },
-    {
-        "label": Last Name",
-        "name": "last_name",
-        "data": "customers.last_name",
-        "meta": ["searchable", "sortable"]
-    },
-    {
-        "label": "Email",
-        "name": "email",
-        "data": "customers.email",
-        "meta": ["searchable", "sortable"]
-    },
-    {
-        "label": "Address",
-        "name": "address",
-        "data": "customers.address",
-        "meta": ["searchable", "sortable"]
-    },
-    {
-        "label": "City",
-        "name": "city",
-        "data": "customers.city",
-        "meta": ["searchable", "sortable"]
-    },
-    {
-        "label": "State",
-        "name": "state",
-        "data": "customers.state",
-        "meta": ["searchable", "sortable"]
-    },
-    {
-        "label": "Postal Code",
-        "name": "postal_code",
-        "data": "customers.postal_code",
-        "meta": ["searchable", "sortable"]
-    }
+        {
+            "label": "Id",
+            "name": "id",
+            "data": "customers.id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "First Name",
+            "name": "first_name",
+            "data": "customers.first_name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Last Name",
+            "name": "last_name",
+            "data": "customers.last_name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Email",
+            "name": "email",
+            "data": "customers.email",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Address",
+            "name": "address",
+            "data": "customers.address",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "City",
+            "name": "city",
+            "data": "customers.city",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "State",
+            "name": "state",
+            "data": "customers.state",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Postal Code",
+            "name": "postal_code",
+            "data": "customers.postal_code",
+            "meta": ["searchable", "sortable"]
+        }
     ]
 }
