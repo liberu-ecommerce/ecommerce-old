@@ -1971,16 +1971,16 @@
         },
         {
             "name": "laravel-liberu/addresses",
-            "version": "v5.0.5",
+            "version": "v5.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/addresses.git",
-                "reference": "a1bd10788929bbf19d1de789ee70abb10bff2ff7"
+                "reference": "8bdac64a2872e07805fc77e34e87add54915f531"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/addresses/zipball/a1bd10788929bbf19d1de789ee70abb10bff2ff7",
-                "reference": "a1bd10788929bbf19d1de789ee70abb10bff2ff7",
+                "url": "https://api.github.com/repos/laravel-liberu/addresses/zipball/8bdac64a2872e07805fc77e34e87add54915f531",
+                "reference": "8bdac64a2872e07805fc77e34e87add54915f531",
                 "shasum": ""
             },
             "require": {
@@ -2039,7 +2039,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/addresses/issues",
-                "source": "https://github.com/laravel-liberu/addresses/tree/v5.0.5"
+                "source": "https://github.com/laravel-liberu/addresses/tree/v5.0.6"
             },
             "funding": [
                 {
@@ -2047,20 +2047,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:15:06+00:00"
+            "time": "2023-10-03T21:14:46+00:00"
         },
         {
             "name": "laravel-liberu/api",
-            "version": "v1.5.5",
+            "version": "v1.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/api.git",
-                "reference": "09203fa60eaf669bf6570a085b52b9f4fd81cce5"
+                "reference": "da94516029ec533a55b3b7b0ad77583349be1844"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/api/zipball/09203fa60eaf669bf6570a085b52b9f4fd81cce5",
-                "reference": "09203fa60eaf669bf6570a085b52b9f4fd81cce5",
+                "url": "https://api.github.com/repos/laravel-liberu/api/zipball/da94516029ec533a55b3b7b0ad77583349be1844",
+                "reference": "da94516029ec533a55b3b7b0ad77583349be1844",
                 "shasum": ""
             },
             "require": {
@@ -2111,7 +2111,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/api/issues",
-                "source": "https://github.com/laravel-liberu/api/tree/v1.5.5"
+                "source": "https://github.com/laravel-liberu/api/tree/v1.5.6"
             },
             "funding": [
                 {
@@ -2119,20 +2119,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:18:10+00:00"
+            "time": "2023-10-03T22:27:32+00:00"
         },
         {
             "name": "laravel-liberu/avatars",
-            "version": "v4.0.14",
+            "version": "v4.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/avatars.git",
-                "reference": "2a3394ee89a01973a812a050633ffe23fd511e1c"
+                "reference": "cbaa86cd45087e36a7be0d61b0f353ba98563fc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/avatars/zipball/2a3394ee89a01973a812a050633ffe23fd511e1c",
-                "reference": "2a3394ee89a01973a812a050633ffe23fd511e1c",
+                "url": "https://api.github.com/repos/laravel-liberu/avatars/zipball/cbaa86cd45087e36a7be0d61b0f353ba98563fc0",
+                "reference": "cbaa86cd45087e36a7be0d61b0f353ba98563fc0",
                 "shasum": ""
             },
             "require": {
@@ -2179,7 +2179,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/avatars/issues",
-                "source": "https://github.com/laravel-liberu/avatars/tree/v4.0.14"
+                "source": "https://github.com/laravel-liberu/avatars/tree/v4.0.15"
             },
             "funding": [
                 {
@@ -2187,20 +2187,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:16:59+00:00"
+            "time": "2023-10-01T17:30:42+00:00"
         },
         {
             "name": "laravel-liberu/calendar",
-            "version": "v3.0.9",
+            "version": "v3.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/calendar.git",
-                "reference": "96361c36d88b94d37841812997653ceccfa82cbf"
+                "reference": "e117eea6d7297d0d195d86875e8bad00c04b2943"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/calendar/zipball/96361c36d88b94d37841812997653ceccfa82cbf",
-                "reference": "96361c36d88b94d37841812997653ceccfa82cbf",
+                "url": "https://api.github.com/repos/laravel-liberu/calendar/zipball/e117eea6d7297d0d195d86875e8bad00c04b2943",
+                "reference": "e117eea6d7297d0d195d86875e8bad00c04b2943",
                 "shasum": ""
             },
             "require": {
@@ -2268,7 +2268,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/calendar/issues",
-                "source": "https://github.com/laravel-liberu/calendar/tree/v3.0.9"
+                "source": "https://github.com/laravel-liberu/calendar/tree/v3.0.11"
             },
             "funding": [
                 {
@@ -2276,7 +2276,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:18:41+00:00"
+            "time": "2023-10-03T21:58:42+00:00"
         },
         {
             "name": "laravel-liberu/charts",
@@ -2348,16 +2348,16 @@
         },
         {
             "name": "laravel-liberu/comments",
-            "version": "v4.2.5",
+            "version": "v4.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/comments.git",
-                "reference": "d9e30353b71462366a1a480a1279786108b03208"
+                "reference": "dd2b029a6c27cfceb918ced245b3d7e9e0d3a11e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/comments/zipball/d9e30353b71462366a1a480a1279786108b03208",
-                "reference": "d9e30353b71462366a1a480a1279786108b03208",
+                "url": "https://api.github.com/repos/laravel-liberu/comments/zipball/dd2b029a6c27cfceb918ced245b3d7e9e0d3a11e",
+                "reference": "dd2b029a6c27cfceb918ced245b3d7e9e0d3a11e",
                 "shasum": ""
             },
             "require": {
@@ -2408,7 +2408,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/comments/issues",
-                "source": "https://github.com/laravel-liberu/comments/tree/v4.2.5"
+                "source": "https://github.com/laravel-liberu/comments/tree/v4.2.7"
             },
             "funding": [
                 {
@@ -2416,20 +2416,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:15:18+00:00"
+            "time": "2023-10-03T14:01:27+00:00"
         },
         {
             "name": "laravel-liberu/companies",
-            "version": "v4.0.8",
+            "version": "v4.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/companies.git",
-                "reference": "24ec7655114c9b7a0edf9a95804150f6761004ec"
+                "reference": "c206ae79a8059f4d7ee5d170111f202a4b035057"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/companies/zipball/24ec7655114c9b7a0edf9a95804150f6761004ec",
-                "reference": "24ec7655114c9b7a0edf9a95804150f6761004ec",
+                "url": "https://api.github.com/repos/laravel-liberu/companies/zipball/c206ae79a8059f4d7ee5d170111f202a4b035057",
+                "reference": "c206ae79a8059f4d7ee5d170111f202a4b035057",
                 "shasum": ""
             },
             "require": {
@@ -2490,7 +2490,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/companies/issues",
-                "source": "https://github.com/laravel-liberu/companies/tree/v4.0.8"
+                "source": "https://github.com/laravel-liberu/companies/tree/v4.0.10"
             },
             "funding": [
                 {
@@ -2498,7 +2498,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:11:39+00:00"
+            "time": "2023-10-03T15:40:35+00:00"
         },
         {
             "name": "laravel-liberu/control-panel-api",
@@ -2641,16 +2641,16 @@
         },
         {
             "name": "laravel-liberu/core",
-            "version": "v8.0.18",
+            "version": "v8.0.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/core.git",
-                "reference": "e8d2bd09e342ed010089d8449510c869943be3c8"
+                "reference": "e329ac829b6332b31d75501791dd7830875c8538"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/core/zipball/e8d2bd09e342ed010089d8449510c869943be3c8",
-                "reference": "e8d2bd09e342ed010089d8449510c869943be3c8",
+                "url": "https://api.github.com/repos/laravel-liberu/core/zipball/e329ac829b6332b31d75501791dd7830875c8538",
+                "reference": "e329ac829b6332b31d75501791dd7830875c8538",
                 "shasum": ""
             },
             "require": {
@@ -2744,7 +2744,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/core/issues",
-                "source": "https://github.com/laravel-liberu/core/tree/v8.0.18"
+                "source": "https://github.com/laravel-liberu/core/tree/v8.0.19"
             },
             "funding": [
                 {
@@ -2752,7 +2752,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:18:22+00:00"
+            "time": "2023-10-01T18:12:23+00:00"
         },
         {
             "name": "laravel-liberu/countries",
@@ -2834,16 +2834,16 @@
         },
         {
             "name": "laravel-liberu/data-export",
-            "version": "v3.1.13",
+            "version": "v3.1.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/data-export.git",
-                "reference": "b5761dad635cb24dfdf89e0851a519fe9bea3482"
+                "reference": "3b6ca5f95d300594b91aa43147268b683d35d6d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/data-export/zipball/b5761dad635cb24dfdf89e0851a519fe9bea3482",
-                "reference": "b5761dad635cb24dfdf89e0851a519fe9bea3482",
+                "url": "https://api.github.com/repos/laravel-liberu/data-export/zipball/3b6ca5f95d300594b91aa43147268b683d35d6d9",
+                "reference": "3b6ca5f95d300594b91aa43147268b683d35d6d9",
                 "shasum": ""
             },
             "require": {
@@ -2895,7 +2895,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/data-export/issues",
-                "source": "https://github.com/laravel-liberu/data-export/tree/v3.1.13"
+                "source": "https://github.com/laravel-liberu/data-export/tree/v3.1.15"
             },
             "funding": [
                 {
@@ -2903,20 +2903,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:13:16+00:00"
+            "time": "2023-10-03T15:34:36+00:00"
         },
         {
             "name": "laravel-liberu/data-import",
-            "version": "v6.1.24",
+            "version": "v6.1.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/data-import.git",
-                "reference": "53ecb9aa6bda200c5f59f0755ba82cd7495a4c27"
+                "reference": "59904b42156ba3992eea0e7e4714b0a92091e372"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/data-import/zipball/53ecb9aa6bda200c5f59f0755ba82cd7495a4c27",
-                "reference": "53ecb9aa6bda200c5f59f0755ba82cd7495a4c27",
+                "url": "https://api.github.com/repos/laravel-liberu/data-import/zipball/59904b42156ba3992eea0e7e4714b0a92091e372",
+                "reference": "59904b42156ba3992eea0e7e4714b0a92091e372",
                 "shasum": ""
             },
             "require": {
@@ -2932,6 +2932,9 @@
                 "laravel-liberu/select": "^4.0",
                 "laravel-liberu/tables": "^4.0",
                 "laravel-liberu/track-who": "^2.0"
+            },
+            "require-dev": {
+                "rector/rector": "^0.17.0"
             },
             "type": "library",
             "extra": {
@@ -2977,22 +2980,28 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/data-import/issues",
-                "source": "https://github.com/laravel-liberu/data-import/tree/v6.1.24"
+                "source": "https://github.com/laravel-liberu/data-import/tree/v6.1.25"
             },
-            "time": "2023-05-15T20:55:29+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/laravel-liberu",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-10-03T14:27:57+00:00"
         },
         {
             "name": "laravel-liberu/discussions",
-            "version": "v4.0.4",
+            "version": "v4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/discussions.git",
-                "reference": "de00424cd23a960db76deda0264a5500407bf7fc"
+                "reference": "50b431fc66f2d72236c0feb70e3966f229c905bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/discussions/zipball/de00424cd23a960db76deda0264a5500407bf7fc",
-                "reference": "de00424cd23a960db76deda0264a5500407bf7fc",
+                "url": "https://api.github.com/repos/laravel-liberu/discussions/zipball/50b431fc66f2d72236c0feb70e3966f229c905bf",
+                "reference": "50b431fc66f2d72236c0feb70e3966f229c905bf",
                 "shasum": ""
             },
             "require": {
@@ -3041,7 +3050,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/discussions/issues",
-                "source": "https://github.com/laravel-liberu/discussions/tree/v4.0.4"
+                "source": "https://github.com/laravel-liberu/discussions/tree/v4.0.5"
             },
             "funding": [
                 {
@@ -3049,20 +3058,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:11:27+00:00"
+            "time": "2023-10-03T15:18:58+00:00"
         },
         {
             "name": "laravel-liberu/documents",
-            "version": "v5.0.16",
+            "version": "v5.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/documents.git",
-                "reference": "0b410a104de4f34067d29a059b197656879df308"
+                "reference": "a79fe69d8ea66e0da9068ec1e0258bfcc925f6c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/documents/zipball/0b410a104de4f34067d29a059b197656879df308",
-                "reference": "0b410a104de4f34067d29a059b197656879df308",
+                "url": "https://api.github.com/repos/laravel-liberu/documents/zipball/a79fe69d8ea66e0da9068ec1e0258bfcc925f6c3",
+                "reference": "a79fe69d8ea66e0da9068ec1e0258bfcc925f6c3",
                 "shasum": ""
             },
             "require": {
@@ -3114,7 +3123,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/documents/issues",
-                "source": "https://github.com/laravel-liberu/documents/tree/v5.0.16"
+                "source": "https://github.com/laravel-liberu/documents/tree/v5.0.17"
             },
             "funding": [
                 {
@@ -3122,7 +3131,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:17:52+00:00"
+            "time": "2023-10-03T15:22:38+00:00"
         },
         {
             "name": "laravel-liberu/dynamic-methods",
@@ -3318,16 +3327,16 @@
         },
         {
             "name": "laravel-liberu/files",
-            "version": "v5.2.12",
+            "version": "v5.2.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/files.git",
-                "reference": "cac2ef2742664c178d503dd7ee6a0d4b1f30f30c"
+                "reference": "1035d543ca52a913c2ff5325385b6707bb268853"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/files/zipball/cac2ef2742664c178d503dd7ee6a0d4b1f30f30c",
-                "reference": "cac2ef2742664c178d503dd7ee6a0d4b1f30f30c",
+                "url": "https://api.github.com/repos/laravel-liberu/files/zipball/1035d543ca52a913c2ff5325385b6707bb268853",
+                "reference": "1035d543ca52a913c2ff5325385b6707bb268853",
                 "shasum": ""
             },
             "require": {
@@ -3379,7 +3388,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/files/issues",
-                "source": "https://github.com/laravel-liberu/files/tree/v5.2.12"
+                "source": "https://github.com/laravel-liberu/files/tree/v5.2.14"
             },
             "funding": [
                 {
@@ -3387,7 +3396,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:13:05+00:00"
+            "time": "2023-10-01T17:22:06+00:00"
         },
         {
             "name": "laravel-liberu/filters",
@@ -4125,16 +4134,16 @@
         },
         {
             "name": "laravel-liberu/menus",
-            "version": "v5.0.6",
+            "version": "v5.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/menus.git",
-                "reference": "5fa89157362e047489e4dbcc5e347e20c8af9bad"
+                "reference": "adbb90bfef592f77ca941217111d25b548658dc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/menus/zipball/5fa89157362e047489e4dbcc5e347e20c8af9bad",
-                "reference": "5fa89157362e047489e4dbcc5e347e20c8af9bad",
+                "url": "https://api.github.com/repos/laravel-liberu/menus/zipball/adbb90bfef592f77ca941217111d25b548658dc9",
+                "reference": "adbb90bfef592f77ca941217111d25b548658dc9",
                 "shasum": ""
             },
             "require": {
@@ -4186,9 +4195,15 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/menus/issues",
-                "source": "https://github.com/laravel-liberu/menus/tree/v5.0.6"
+                "source": "https://github.com/laravel-liberu/menus/tree/v5.0.7"
             },
-            "time": "2023-06-12T08:14:22+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/laravel-liberu",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-10-02T23:55:48+00:00"
         },
         {
             "name": "laravel-liberu/migrator",
@@ -4461,16 +4476,16 @@
         },
         {
             "name": "laravel-liberu/people",
-            "version": "v4.2.9",
+            "version": "v4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/people.git",
-                "reference": "a62dd557cbfb7404fbcfba79197b9869f8a485dd"
+                "reference": "1f79c86e230217ba2bce249eebe156951d8751e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/people/zipball/a62dd557cbfb7404fbcfba79197b9869f8a485dd",
-                "reference": "a62dd557cbfb7404fbcfba79197b9869f8a485dd",
+                "url": "https://api.github.com/repos/laravel-liberu/people/zipball/1f79c86e230217ba2bce249eebe156951d8751e3",
+                "reference": "1f79c86e230217ba2bce249eebe156951d8751e3",
                 "shasum": ""
             },
             "require": {
@@ -4526,7 +4541,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/people/issues",
-                "source": "https://github.com/laravel-liberu/people/tree/v4.2.9"
+                "source": "https://github.com/laravel-liberu/people/tree/v4.3.1"
             },
             "funding": [
                 {
@@ -4534,20 +4549,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-01T15:34:22+00:00"
+            "time": "2023-10-02T22:48:47+00:00"
         },
         {
             "name": "laravel-liberu/permissions",
-            "version": "v5.0.8",
+            "version": "v5.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/permissions.git",
-                "reference": "3014364b462baa57914cbc23f18b159e6cec8b63"
+                "reference": "69fe8978188d252ce9dfe933706a16fcc7f3ca98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/permissions/zipball/3014364b462baa57914cbc23f18b159e6cec8b63",
-                "reference": "3014364b462baa57914cbc23f18b159e6cec8b63",
+                "url": "https://api.github.com/repos/laravel-liberu/permissions/zipball/69fe8978188d252ce9dfe933706a16fcc7f3ca98",
+                "reference": "69fe8978188d252ce9dfe933706a16fcc7f3ca98",
                 "shasum": ""
             },
             "require": {
@@ -4597,9 +4612,15 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/permissions/issues",
-                "source": "https://github.com/laravel-liberu/permissions/tree/v5.0.8"
+                "source": "https://github.com/laravel-liberu/permissions/tree/v5.0.9"
             },
-            "time": "2023-05-25T10:25:56+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/laravel-liberu",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-10-03T00:01:27+00:00"
         },
         {
             "name": "laravel-liberu/recordsapi",
@@ -4726,16 +4747,16 @@
         },
         {
             "name": "laravel-liberu/roles",
-            "version": "v5.1.10",
+            "version": "v5.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/roles.git",
-                "reference": "3fa371aeabc2c78bd6475bf94d696bb469c0f91a"
+                "reference": "bdb23ddf28bd2e1aeb24d322070f457c6113c873"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/roles/zipball/3fa371aeabc2c78bd6475bf94d696bb469c0f91a",
-                "reference": "3fa371aeabc2c78bd6475bf94d696bb469c0f91a",
+                "url": "https://api.github.com/repos/laravel-liberu/roles/zipball/bdb23ddf28bd2e1aeb24d322070f457c6113c873",
+                "reference": "bdb23ddf28bd2e1aeb24d322070f457c6113c873",
                 "shasum": ""
             },
             "require": {
@@ -4791,7 +4812,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/roles/issues",
-                "source": "https://github.com/laravel-liberu/roles/tree/v5.1.10"
+                "source": "https://github.com/laravel-liberu/roles/tree/v5.1.12"
             },
             "funding": [
                 {
@@ -4799,7 +4820,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:16:19+00:00"
+            "time": "2023-10-03T00:09:11+00:00"
         },
         {
             "name": "laravel-liberu/searchable",
@@ -5076,16 +5097,16 @@
         },
         {
             "name": "laravel-liberu/tasks",
-            "version": "v2.0.6",
+            "version": "v2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/tasks.git",
-                "reference": "6dcee9650721d0d9ae1bd977d9663eaf50575fc7"
+                "reference": "c624908779d867632306defff127c7dd127e6aef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/tasks/zipball/6dcee9650721d0d9ae1bd977d9663eaf50575fc7",
-                "reference": "6dcee9650721d0d9ae1bd977d9663eaf50575fc7",
+                "url": "https://api.github.com/repos/laravel-liberu/tasks/zipball/c624908779d867632306defff127c7dd127e6aef",
+                "reference": "c624908779d867632306defff127c7dd127e6aef",
                 "shasum": ""
             },
             "require": {
@@ -5143,7 +5164,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/tasks/issues",
-                "source": "https://github.com/laravel-liberu/tasks/tree/v2.0.6"
+                "source": "https://github.com/laravel-liberu/tasks/tree/v2.0.7"
             },
             "funding": [
                 {
@@ -5151,20 +5172,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:13:34+00:00"
+            "time": "2023-10-03T22:09:55+00:00"
         },
         {
             "name": "laravel-liberu/teams",
-            "version": "v4.0.4",
+            "version": "v4.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/teams.git",
-                "reference": "f901d58d7dc603c4b3aa5bb1e72bb32fe73b43f9"
+                "reference": "1f9b4e4ddd28c62ef511469fa4f700ffe8599a4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/teams/zipball/f901d58d7dc603c4b3aa5bb1e72bb32fe73b43f9",
-                "reference": "f901d58d7dc603c4b3aa5bb1e72bb32fe73b43f9",
+                "url": "https://api.github.com/repos/laravel-liberu/teams/zipball/1f9b4e4ddd28c62ef511469fa4f700ffe8599a4d",
+                "reference": "1f9b4e4ddd28c62ef511469fa4f700ffe8599a4d",
                 "shasum": ""
             },
             "require": {
@@ -5213,7 +5234,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/teams/issues",
-                "source": "https://github.com/laravel-liberu/teams/tree/v4.0.4"
+                "source": "https://github.com/laravel-liberu/teams/tree/v4.0.6"
             },
             "funding": [
                 {
@@ -5221,7 +5242,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:14:35+00:00"
+            "time": "2023-10-03T10:05:21+00:00"
         },
         {
             "name": "laravel-liberu/track-who",
@@ -5282,16 +5303,16 @@
         },
         {
             "name": "laravel-liberu/tutorials",
-            "version": "v5.0.6",
+            "version": "v5.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/tutorials.git",
-                "reference": "f63908a17ddab1694a535ff42ab256a32a660276"
+                "reference": "4c195d40c47b4a06fec7dfd092b881b13cab5e03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/tutorials/zipball/f63908a17ddab1694a535ff42ab256a32a660276",
-                "reference": "f63908a17ddab1694a535ff42ab256a32a660276",
+                "url": "https://api.github.com/repos/laravel-liberu/tutorials/zipball/4c195d40c47b4a06fec7dfd092b881b13cab5e03",
+                "reference": "4c195d40c47b4a06fec7dfd092b881b13cab5e03",
                 "shasum": ""
             },
             "require": {
@@ -5344,7 +5365,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/tutorials/issues",
-                "source": "https://github.com/laravel-liberu/tutorials/tree/v5.0.6"
+                "source": "https://github.com/laravel-liberu/tutorials/tree/v5.0.7"
             },
             "funding": [
                 {
@@ -5352,7 +5373,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:11:57+00:00"
+            "time": "2023-10-03T10:19:26+00:00"
         },
         {
             "name": "laravel-liberu/upgrade",
@@ -5424,16 +5445,16 @@
         },
         {
             "name": "laravel-liberu/user-groups",
-            "version": "v2.0.6",
+            "version": "v2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/user-groups.git",
-                "reference": "b75547d54620038f2596b83fe09ddac057eb50ee"
+                "reference": "0b6ccb6f21a58a247d8f8c61ac73d103d457522f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/user-groups/zipball/b75547d54620038f2596b83fe09ddac057eb50ee",
-                "reference": "b75547d54620038f2596b83fe09ddac057eb50ee",
+                "url": "https://api.github.com/repos/laravel-liberu/user-groups/zipball/0b6ccb6f21a58a247d8f8c61ac73d103d457522f",
+                "reference": "0b6ccb6f21a58a247d8f8c61ac73d103d457522f",
                 "shasum": ""
             },
             "require": {
@@ -5499,7 +5520,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/user-groups/issues",
-                "source": "https://github.com/laravel-liberu/user-groups/tree/v2.0.6"
+                "source": "https://github.com/laravel-liberu/user-groups/tree/v2.0.7"
             },
             "funding": [
                 {
@@ -5507,20 +5528,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T09:11:33+00:00"
+            "time": "2023-10-02T23:30:10+00:00"
         },
         {
             "name": "laravel-liberu/users",
-            "version": "v2.2.6",
+            "version": "v2.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/users.git",
-                "reference": "1bb91f53dcc80f3188fcfb6462da7e1a50b97daa"
+                "reference": "86188b0a6f02cb7d24bf99b1e523efe29cb5e79f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/users/zipball/1bb91f53dcc80f3188fcfb6462da7e1a50b97daa",
-                "reference": "1bb91f53dcc80f3188fcfb6462da7e1a50b97daa",
+                "url": "https://api.github.com/repos/laravel-liberu/users/zipball/86188b0a6f02cb7d24bf99b1e523efe29cb5e79f",
+                "reference": "86188b0a6f02cb7d24bf99b1e523efe29cb5e79f",
                 "shasum": ""
             },
             "require": {
@@ -5591,7 +5612,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/users/issues",
-                "source": "https://github.com/laravel-liberu/users/tree/v2.2.6"
+                "source": "https://github.com/laravel-liberu/users/tree/v2.2.9"
             },
             "funding": [
                 {
@@ -5599,20 +5620,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-01T15:33:38+00:00"
+            "time": "2023-10-03T08:39:35+00:00"
         },
         {
             "name": "laravel/cashier",
-            "version": "v14.12.7",
+            "version": "v14.12.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/cashier-stripe.git",
-                "reference": "337eefbbb0ba54267b1f74fc18e74ace5dd71ed7"
+                "reference": "bff7c2d57e5470d6b402641077437431e3d7dfb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/cashier-stripe/zipball/337eefbbb0ba54267b1f74fc18e74ace5dd71ed7",
-                "reference": "337eefbbb0ba54267b1f74fc18e74ace5dd71ed7",
+                "url": "https://api.github.com/repos/laravel/cashier-stripe/zipball/bff7c2d57e5470d6b402641077437431e3d7dfb1",
+                "reference": "bff7c2d57e5470d6b402641077437431e3d7dfb1",
                 "shasum": ""
             },
             "require": {
@@ -5686,20 +5707,20 @@
                 "issues": "https://github.com/laravel/cashier/issues",
                 "source": "https://github.com/laravel/cashier"
             },
-            "time": "2023-09-26T16:30:00+00:00"
+            "time": "2023-10-03T14:49:00+00:00"
         },
         {
             "name": "laravel/framework",
-            "version": "v10.25.2",
+            "version": "v10.26.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "6014dd456b414b305fb0b408404efdcec18e64bc"
+                "reference": "6e5440f7c518f26b4495e5d7e4796ec239e26df9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/6014dd456b414b305fb0b408404efdcec18e64bc",
-                "reference": "6014dd456b414b305fb0b408404efdcec18e64bc",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/6e5440f7c518f26b4495e5d7e4796ec239e26df9",
+                "reference": "6e5440f7c518f26b4495e5d7e4796ec239e26df9",
                 "shasum": ""
             },
             "require": {
@@ -5886,7 +5907,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-09-28T14:08:59+00:00"
+            "time": "2023-10-03T14:24:20+00:00"
         },
         {
             "name": "laravel/octane",
@@ -5977,16 +5998,16 @@
         },
         {
             "name": "laravel/prompts",
-            "version": "v0.1.10",
+            "version": "v0.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/prompts.git",
-                "reference": "37ed55f6950d921a87d5beeab16d03f8de26b060"
+                "reference": "cce65a90e64712909ea1adc033e1d88de8455ffd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/prompts/zipball/37ed55f6950d921a87d5beeab16d03f8de26b060",
-                "reference": "37ed55f6950d921a87d5beeab16d03f8de26b060",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/cce65a90e64712909ea1adc033e1d88de8455ffd",
+                "reference": "cce65a90e64712909ea1adc033e1d88de8455ffd",
                 "shasum": ""
             },
             "require": {
@@ -6028,9 +6049,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
-                "source": "https://github.com/laravel/prompts/tree/v0.1.10"
+                "source": "https://github.com/laravel/prompts/tree/v0.1.11"
             },
-            "time": "2023-09-29T07:26:07+00:00"
+            "time": "2023-10-03T01:07:35+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -14499,16 +14520,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.36",
+            "version": "1.10.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "ffa3089511121a672e62969404e4fddc753f9b15"
+                "reference": "058ba07e92f744d4dcf6061ae75283d0c6456f2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ffa3089511121a672e62969404e4fddc753f9b15",
-                "reference": "ffa3089511121a672e62969404e4fddc753f9b15",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/058ba07e92f744d4dcf6061ae75283d0c6456f2e",
+                "reference": "058ba07e92f744d4dcf6061ae75283d0c6456f2e",
                 "shasum": ""
             },
             "require": {
@@ -14557,7 +14578,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-09-29T14:07:45+00:00"
+            "time": "2023-10-02T16:18:37+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",

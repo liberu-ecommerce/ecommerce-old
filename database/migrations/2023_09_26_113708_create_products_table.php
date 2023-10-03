@@ -17,15 +17,12 @@ return new class extends Migration
             $table->string('name');
             $table->text('short_description');
             $table->text('long_description');
-            $table->unsignedBigInteger('category_id');
+            $table->foreignId('category_id')->constrained('product_categories')->onUpdate('cascade')->onDelete('cascade');;
             $table->boolean('is_variable')->default(0);
             $table->boolean('is_grouped')->default(0);
             $table->boolean('is_simple')->default(1);
             $table->string('featured_image');
             $table->timestamps();
-
-            $table->foreign('category_id')->references('id')->on('product_categories')->onUpdate('cascade')->onDelete('cascade');
-             
         });
     }
 
