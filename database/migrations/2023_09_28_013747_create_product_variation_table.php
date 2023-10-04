@@ -17,10 +17,8 @@ return new class extends Migration
             $table->unsignedBigInteger('variation_id')->nullable();
             $table->integer('quantity');
             $table->integer('price');
-            $table->unsignedBigInteger('product_id');
+            $table->foreignId('product_id')->constrained();
             $table->timestamps();
-
-            $table->foreign('product_id')->references('id')->on('products');
         });
     }
 
