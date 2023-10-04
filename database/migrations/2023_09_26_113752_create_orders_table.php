@@ -15,14 +15,12 @@ return new class extends Migration
     {
         Schema::create($this->table, function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('customer_id');
+            $table->foreignId('customer_id')->constrained()->onUpdate('cascade')->onDelete('cascade');
             $table->string('order_date');
             $table->integer('total_amount');
             $table->integer('payment_status');
             $table->integer('shipping_status');
             $table->timestamps();
-
-            $table->foreign('customer_id')->references('id')->on('customers')->onUpdate('cascade')->onDelete('cascade');
         });
     }
 
