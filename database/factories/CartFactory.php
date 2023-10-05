@@ -15,7 +15,7 @@ class CartFactory extends Factory
     public function definition(): array
     {
         return [
-            'user_id' => $this->numberBetween(1, 100),
+            'user_id' => $this->faker->numberBetween(1, 100),
             'product_id' => $this->faker->numberBetween(1, 50),
             'quantity' => $this->faker->numberBetween(1, 5),
             'price' => $this->faker->randomDigit,
