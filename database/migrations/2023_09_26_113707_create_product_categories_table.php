@@ -15,8 +15,8 @@ return new class extends Migration
         Schema::create($this->table, function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->integer('is_child');
-            $table->integer('child_of');
+            $table->boolean('is_child')->default(0);
+            $table->unsignedBigInteger('child_of')->nullable();
             $table->timestamps();
         });
     }
