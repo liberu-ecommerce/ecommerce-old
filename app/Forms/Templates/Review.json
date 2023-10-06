@@ -1,0 +1,21 @@
+{
+    "routePrefix": "review",
+  "tabs": true,
+  "sections": [
+    {
+      "tab": "Review",
+      "columns": 3,
+        "fields": [{
+            "label": "Comment",
+            "name": "comment",
+            "value": null,
+            "meta": {
+                "type": "textarea",
+                "placeholder": "Comment",
+                "rows": 5,
+                "resize": true
+            }
+        }
+        ]
+    }]
+}
