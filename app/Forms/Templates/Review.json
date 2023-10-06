@@ -7,7 +7,7 @@
       "columns": 3,
         "fields": [{
             "label": "Comment",
-            "name": "comment",
+            "name": "comments",
             "value": null,
             "meta": {
                 "type": "textarea",
