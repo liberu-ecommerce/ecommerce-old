@@ -37,8 +37,15 @@ class Product extends Model
         return $this->hasMany(OrderItem::class);
     }
 
-    public function reviewRatings()
+    public function review()
     {
-        return $this->hasMany(ReviewRating::class);
+        return $this->hasMany(Review::class);
     }
+
+    public function rating()
+    {
+        return $this->hasMany(Rating::class);
+    }
+
+
 }
