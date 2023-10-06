@@ -14,10 +14,16 @@ return new class extends Migration
     {
         Schema::create($this->table, function (Blueprint $table) {
             $table->id();
-            $table->text('review');
-            $table->foreignId('product_id')->constrained();
-            $table->foreignId('customer_id')->constrained();
+            $table->text('comments');
+            $table->unsignedBigInteger('product_id');
+            $table->unsignedBigInteger('customer_id');
             $table->timestamps();
+
+            $table->foreign('product_id')->references('id')->on('products');
+            $table->foreign('customer_id')->references('id')->on('customers');
+
+
+            
         });
     }
 
