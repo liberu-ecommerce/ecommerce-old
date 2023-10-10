@@ -49,7 +49,7 @@ Ecommerce is committed to building a vibrant community of developers, designers,
 Join us in revolutionizing the eCommerce landscape with Ecommerce – where flexibility, modularity, and innovation meet to create the ultimate online shopping experience.
 <!--/h-->
 
-## Demostration website
+## Demonstration website
 <!--/h-->
 
 ### Installation steps
