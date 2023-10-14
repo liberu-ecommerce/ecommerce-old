@@ -3313,7 +3313,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Enums for Laravel Liberu",
+            "description": "Enums for Laravel Enso",
             "homepage": "https://github.com/laravel-liberu/enums",
             "keywords": [
                 "enums",
@@ -3514,7 +3514,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Filters dependency for Laravel Liberu",
+            "description": "Filters dependency for Laravel Enso",
             "homepage": "https://github.com/laravel-liberu/filters",
             "keywords": [
                 "date-interval",
@@ -13169,8 +13169,8 @@
             ],
             "authors": [
                 {
-                    "name": "John Stevliberun",
-                    "email": "john-stevliberun@blueyonder.co.uk"
+                    "name": "John Stevenson",
+                    "email": "john-stevenson@blueyonder.co.uk"
                 }
             ],
             "description": "Restarts a process without Xdebug.",
@@ -13786,16 +13786,16 @@
         },
         {
             "name": "laravel-liberu/cli",
-            "version": "v5.0.10",
+            "version": "v5.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-liberu/cli.git",
-                "reference": "85485565e36edc2f4501193429bfd576ac11f100"
+                "reference": "9ee2da49d9e022448dbbf33e60bda398fbcef940"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-liberu/cli/zipball/85485565e36edc2f4501193429bfd576ac11f100",
-                "reference": "85485565e36edc2f4501193429bfd576ac11f100",
+                "url": "https://api.github.com/repos/laravel-liberu/cli/zipball/9ee2da49d9e022448dbbf33e60bda398fbcef940",
+                "reference": "9ee2da49d9e022448dbbf33e60bda398fbcef940",
                 "shasum": ""
             },
             "require": {
@@ -13844,7 +13844,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-liberu/cli/issues",
-                "source": "https://github.com/laravel-liberu/cli/tree/v5.0.10"
+                "source": "https://github.com/laravel-liberu/cli/tree/v5.0.11"
             },
             "funding": [
                 {
@@ -13852,7 +13852,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-14T09:03:14+00:00"
+            "time": "2023-10-14T09:39:44+00:00"
         },
         {
             "name": "laravel-liberu/phpunit-pretty-print",
@@ -14679,7 +14679,7 @@
             "authors": [
                 {
                     "name": "Jaap van Otterdijk",
-                    "email": "opliberuurce@ijaap.nl"
+                    "email": "opensource@ijaap.nl"
                 }
             ],
             "description": "Common reflection classes used by phpdocumentor to reflect the code structure",
