@@ -3243,7 +3243,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Enums for Laravel Enso",
+            "description": "Enums for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/enums",
             "keywords": [
                 "enums",
@@ -3444,7 +3444,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Filters dependency for Laravel Enso",
+            "description": "Filters dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/filters",
             "keywords": [
                 "date-interval",
@@ -12900,8 +12900,8 @@
             ],
             "authors": [
                 {
-                    "name": "John Stevenson",
-                    "email": "john-stevenson@blueyonder.co.uk"
+                    "name": "John Stevliberun",
+                    "email": "john-stevliberun@blueyonder.co.uk"
                 }
             ],
             "description": "Restarts a process without Xdebug.",
@@ -14410,7 +14410,7 @@
             "authors": [
                 {
                     "name": "Jaap van Otterdijk",
-                    "email": "opensource@ijaap.nl"
+                    "email": "opliberuurce@ijaap.nl"
                 }
             ],
             "description": "Common reflection classes used by phpdocumentor to reflect the code structure",
