@@ -6,9 +6,9 @@ use App\Notifications\ResetPassword;
 use Illuminate\Auth\Passwords\CanResetPassword;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Laravel\Cashier\Billable;
-use LaravelEnso\Avatars\Models\Avatar;
-use LaravelEnso\Tables\Traits\TableCache;
-use LaravelEnso\Users\Models\User as CoreUser;
+use LaravelLiberu\Avatars\Models\Avatar;
+use LaravelLiberu\Tables\Traits\TableCache;
+use LaravelLiberu\Users\Models\User as CoreUser;
 
 class User extends CoreUser
 {

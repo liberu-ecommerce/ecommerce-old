@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Order\Admin;
 
 use App\Tables\Builders\OrderTable;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Tables\Traits\Init;
+use LaravelLiberu\Tables\Traits\Init;
 
 class InitTable extends Controller
 {

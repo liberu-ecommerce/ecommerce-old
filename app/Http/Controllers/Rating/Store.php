@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Rating;
 
 use App\Models\Rating;
 use App\Http\Controllers\Controller;
-use LaravelEnso\Files\Services\Validate;
+use LaravelLiberu\Files\Services\Validate;
 use App\Http\Requests\ValidateRatingRequest;
 
 class Store extends Controller

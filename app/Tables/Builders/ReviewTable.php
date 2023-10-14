@@ -4,7 +4,7 @@ namespace App\Tables\Builders;
 
 use App\Models\Review;
 use Illuminate\Database\Eloquent\Builder;
-use LaravelEnso\Tables\Contracts\Table;
+use LaravelLiberu\Tables\Contracts\Table;
 
 class ReviewTable implements Table
 {

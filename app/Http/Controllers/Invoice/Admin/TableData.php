@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Invoice\Admin;
 
 use App\Tables\Builders\InvoiceTable;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Tables\Traits\Data;
+use LaravelLiberu\Tables\Traits\Data;
 
 class TableData extends Controller
 {

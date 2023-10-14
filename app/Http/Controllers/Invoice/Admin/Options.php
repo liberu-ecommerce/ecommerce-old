@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Invoice\Admin;
 
 use App\Models\Invoice;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Select\Traits\OptionsBuilder;
+use LaravelLiberu\Select\Traits\OptionsBuilder;
 
 class Options extends Controller
 {
