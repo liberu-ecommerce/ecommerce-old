@@ -93,10 +93,10 @@
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force",
-            "php artisan enso:localisation:merge",
+            "php artisan liberu:localisation:merge",
             "php artisan telescope:publish",
             "php artisan horizon:publish",
-            "php artisan enso:upgrade:status"
+            "php artisan liberu:upgrade:status"
         ]
     }
 }

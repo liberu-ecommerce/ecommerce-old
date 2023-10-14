@@ -2031,7 +2031,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Addresses Manager for Laravel Enso",
+            "description": "Addresses Manager for Laravel Liberu",
             "keywords": [
                 "addresses",
                 "laravel",
@@ -2101,7 +2101,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "External API boilerplate for Laravel Enso",
+            "description": "External API boilerplate for Laravel Liberu",
             "keywords": [
                 "api",
                 "laravel-liberu"
@@ -2166,7 +2166,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "User Avatar manager dependency for Laravel Enso",
+            "description": "User Avatar manager dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/avatars",
             "keywords": [
                 "avatar",
@@ -2254,7 +2254,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Enso Calendar",
+            "description": "Liberu Calendar",
             "homepage": "https://https://github.com/laravel-liberu/calendar",
             "keywords": [
                 "calendar",
@@ -2396,7 +2396,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Comments Manager for Laravel Enso",
+            "description": "Comments Manager for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/comments",
             "keywords": [
                 "comments",
@@ -2477,7 +2477,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Person management dependency for Laravel Enso",
+            "description": "Person management dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/companies",
             "keywords": [
                 "companies",
@@ -2555,7 +2555,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Control Panel API for Laravel Enso",
+            "description": "Control Panel API for Laravel Liberu",
             "keywords": [
                 "api",
                 "controlpanel",
@@ -2618,7 +2618,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Control Panel Common for Laravel Enso",
+            "description": "Control Panel Common for Laravel Liberu",
             "keywords": [
                 "controlpanel",
                 "laravel",
@@ -2729,7 +2729,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Main requirement & dependency aggregator for Laravel Enso",
+            "description": "Main requirement & dependency aggregator for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/Core",
             "keywords": [
                 "laravel-boilerplate",
@@ -2810,7 +2810,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Countries for Laravel Enso",
+            "description": "Countries for Laravel Liberu",
             "keywords": [
                 "countries",
                 "laravel-liberu",
@@ -2883,7 +2883,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Structure for holding Laravel-Enso exports",
+            "description": "Structure for holding Laravel-Liberu exports",
             "homepage": "https://github.com/laravel-liberu/data-export",
             "keywords": [
                 "data-export",
@@ -2967,7 +2967,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Excel Importer dependency for Laravel Enso",
+            "description": "Excel Importer dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/data-import",
             "keywords": [
                 "data-import",
@@ -3039,7 +3039,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Discussion board for Laravel Enso",
+            "description": "Discussion board for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/discussions",
             "keywords": [
                 "discussions",
@@ -3110,7 +3110,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Documents Manager for Laravel Enso",
+            "description": "Documents Manager for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/documents",
             "keywords": [
                 "documents",
@@ -3243,7 +3243,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Enums for Laravel Enso",
+            "description": "Enums for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/enums",
             "keywords": [
                 "enums",
@@ -3312,7 +3312,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Excel for Laravel Enso",
+            "description": "Excel for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/excel",
             "keywords": [
                 "excel",
@@ -3384,7 +3384,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "File manager dependency for Laravel Enso",
+            "description": "File manager dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/files",
             "keywords": [
                 "file-manager",
@@ -3444,7 +3444,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Filters dependency for Laravel Enso",
+            "description": "Filters dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/filters",
             "keywords": [
                 "date-interval",
@@ -3512,7 +3512,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Form builder for Laravel Enso",
+            "description": "Form builder for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/forms",
             "keywords": [
                 "Forms",
@@ -3628,7 +3628,7 @@
             "extra": {
                 "laravel": {
                     "aliases": {
-                        "EnsoException": "LaravelLiberu\\Helpers\\Exceptions\\EnsoException"
+                        "LiberuException": "LaravelLiberu\\Helpers\\Exceptions\\LiberuException"
                     }
                 }
             },
@@ -3649,7 +3649,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Helper classes dependency for Laravel Enso",
+            "description": "Helper classes dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/helpers",
             "keywords": [
                 "helpers",
@@ -3706,7 +3706,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Model history tracking dependency for Laravel Enso",
+            "description": "Model history tracking dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/history-tracker",
             "keywords": [
                 "history-tracker",
@@ -3773,7 +3773,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "How to video manager for Laravel Enso",
+            "description": "How to video manager for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/how-to",
             "keywords": [
                 "HowTo",
@@ -3841,7 +3841,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Image transformer dependency for Laravel Enso",
+            "description": "Image transformer dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/image-transformer",
             "keywords": [
                 "image-optimizer",
@@ -3910,7 +3910,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "User impersonation dependency for Laravel Enso",
+            "description": "User impersonation dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/impersonate",
             "keywords": [
                 "impersonate",
@@ -3978,7 +3978,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "IO process monitoring dependency for Laravel-Enso",
+            "description": "IO process monitoring dependency for Laravel-Liberu",
             "homepage": "https://github.com/laravel-liberu/io",
             "keywords": [
                 "io",
@@ -4051,7 +4051,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Localisation management dependency for Laravel Enso",
+            "description": "Localisation management dependency for Laravel Liberu",
             "keywords": [
                 "laravel-liberu",
                 "localisation"
@@ -4116,7 +4116,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Log management dependency for Laravel Enso",
+            "description": "Log management dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/logs",
             "keywords": [
                 "laravel-liberu",
@@ -4188,7 +4188,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Menu Manager dependency for Laravel Enso",
+            "description": "Menu Manager dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/Menus",
             "keywords": [
                 "breadcrumbs",
@@ -4249,7 +4249,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Structure Migrator dependency for Laravel Enso",
+            "description": "Structure Migrator dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/migrator",
             "keywords": [
                 "Structures",
@@ -4459,7 +4459,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "PDF for Laravel Enso",
+            "description": "PDF for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/pdf",
             "keywords": [
                 "laravel",
@@ -4536,7 +4536,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Person management dependency for Laravel Enso",
+            "description": "Person management dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/People",
             "keywords": [
                 "laravel-liberu",
@@ -4607,7 +4607,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Permissions dependency for Laravel Enso",
+            "description": "Permissions dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/permissions",
             "keywords": [
                 "laravel-liberu",
@@ -4729,7 +4729,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Model caching dependency for Laravel Enso",
+            "description": "Model caching dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/rememberable",
             "keywords": [
                 "laravel-cache",
@@ -4806,7 +4806,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Role Manager dependency for Laravel Enso",
+            "description": "Role Manager dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/Roles",
             "keywords": [
                 "laravel-liberu",
@@ -4878,7 +4878,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Searchable dependency for Laravel Enso",
+            "description": "Searchable dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/searchable",
             "keywords": [
                 "laravel-liberu",
@@ -5017,7 +5017,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Main requirement & dependency aggregator for Laravel Enso",
+            "description": "Main requirement & dependency aggregator for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/Sentry",
             "keywords": [
                 "laravel-liberu",
@@ -5166,7 +5166,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Task management dependency for Laravel Enso",
+            "description": "Task management dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/tasks",
             "keywords": [
                 "Tasks",
@@ -5236,7 +5236,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Team management dependency for Laravel Enso",
+            "description": "Team management dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/teams",
             "keywords": [
                 "Teams",
@@ -5294,7 +5294,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Create, update and delete authoring tracking dependency for Laravel Enso",
+            "description": "Create, update and delete authoring tracking dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/track-who",
             "keywords": [
                 "laravel-liberu",
@@ -5366,7 +5366,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Tutorial management dependency for Laravel Enso",
+            "description": "Tutorial management dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/Tutorials",
             "keywords": [
                 "bootstrap-tour",
@@ -5436,7 +5436,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Helper classes dependency for Laravel Enso",
+            "description": "Helper classes dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/upgrade",
             "keywords": [
                 "laravel-liberu",
@@ -5521,7 +5521,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "User groups dependency for Laravel Enso",
+            "description": "User groups dependency for Laravel Liberu",
             "homepage": "https://www.laravel-liberu.com",
             "keywords": [
                 "laravel-liberu",
@@ -5613,7 +5613,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Users dependency for Laravel Enso",
+            "description": "Users dependency for Laravel Liberu",
             "homepage": "https://www.laravel-liberu.com",
             "keywords": [
                 "laravel-liberu",
@@ -13566,7 +13566,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Cli dependency for Laravel Enso",
+            "description": "Cli dependency for Laravel Liberu",
             "homepage": "https://github.com/laravel-liberu/cli",
             "keywords": [
                 "cli",
