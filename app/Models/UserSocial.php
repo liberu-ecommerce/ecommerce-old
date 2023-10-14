@@ -2,10 +2,13 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use LaravelEnso\Tables\Traits\TableCache;
 
 class UserSocial extends Model
 {
+    use HasFactory, TableCache;
     protected $table = 'user_social';
 
     protected $fillable = [
@@ -14,7 +17,7 @@ class UserSocial extends Model
         'service',
     ];
 
-    public function user()
+    public function user(): \Illuminate\Database\Eloquent\Relations\HasOne
     {
         return $this->hasOne(User::class, 'id', 'user_id');
     }

@@ -12,8 +12,6 @@ class Options extends Controller
 
     protected string $model = Product::class;
 
-    protected $queryAttributes = ['subm'];
-
     //public function query(Request $request)
     //{
     //    return Product::query();

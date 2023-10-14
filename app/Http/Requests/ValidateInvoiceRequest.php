@@ -16,9 +16,9 @@ class ValidateInvoiceRequest extends FormRequest
         $this->route('invoice');
 
         return [
+            'invoice_date' => 'required',
             'customer_id' => 'required|exists:customers,id',
             'order_id' => 'required|exists:orders,id',
-            'invoice_date' => 'required|date',
             'total_amount' => 'required|numeric|min:0',
             'payment_status' => 'required|in:unpaid,paid',
         ];

@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class ValidateCustomerRequest extends FormRequest
+class ValidateCustomerUpdateRequest extends FormRequest
 {
     public function authorize(): bool
     {
@@ -19,7 +19,7 @@ class ValidateCustomerRequest extends FormRequest
 
             'first_name' => 'required',
             'last_name' => 'required',
-            'email' => 'required|email|unique:customers,email',
+            'email' => 'required|email',
             'phone_number' => 'required',
             'address' => 'required',
             'city' => 'required',

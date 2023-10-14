@@ -18,12 +18,24 @@ class OrderFactory extends Factory
      */
     public function definition(): array
     {
+        $paymentStatus = array(
+            'paid',
+            'unpaid',
+        );
+        $statusKey = array_rand($paymentStatus);
+
+        $shippingStatus = array(
+            'pending',
+            'shipped',
+            'delivered',
+        );
+        $shippingStatusKey = array_rand($shippingStatus);
         return [
             'customer_id' => $this->faker->numberBetween(1, 50),
-            'order_date' => $this->faker->dateTime(),
+            'order_date' => $this->faker->dateTime()->format('Y-m-d H:i:s'),
             'total_amount' => $this->faker->numberBetween(500, 50000),
-            'payment_status' => $this->faker->numberBetween(1, 2),
-            'shipping_status' => $this->faker->numberBetween(1, 2),
+            'payment_status' => $paymentStatus[$statusKey],
+            'shipping_status' => $shippingStatus[$shippingStatusKey],
         ];
     }
 }

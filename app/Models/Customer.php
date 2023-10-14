@@ -4,10 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use LaravelEnso\Tables\Traits\TableCache;
 
 class Customer extends Model
 {
-    use HasFactory;
+    use HasFactory, TableCache;
 
     protected $table = 'customers';
 
@@ -24,7 +25,7 @@ class Customer extends Model
 
     public function orders()
     {
-        return $this->hasMany(Orders::class);
+        return $this->hasMany(Order::class);
     }
 
     public function invoices()

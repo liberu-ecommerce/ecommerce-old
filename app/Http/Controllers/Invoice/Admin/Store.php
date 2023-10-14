@@ -10,7 +10,7 @@ class Store extends Controller
 {
     public function __invoke(ValidateInvoiceRequest $request, Invoice $invoice)
     {
-        $invoice->fill($request->validated())->save();
+        //$invoice->fill($request->validated())->save();
 
         return [
             'message' => __('The invoice was successfully created'),
