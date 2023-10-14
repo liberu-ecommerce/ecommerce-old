@@ -28,6 +28,7 @@
         "laravel/tinker": "^2.7",
         "laravel/ui": "^4.0",
         "predis/predis": "^2.1",
+        "rakutentech/laravel-request-docs": "*",
         "stancl/tenancy": "^3.5",
         "symfony/http-client": "^6.0",
         "symfony/mailgun-mailer": "^6.0"
