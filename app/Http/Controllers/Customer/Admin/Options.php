@@ -12,7 +12,7 @@ class Options extends Controller
 
     protected string $model = Customer::class;
 
-    protected $queryAttributes = ['subm'];
+    protected array $queryAttributes = ['email'];
 
     //public function query(Request $request)
     //{

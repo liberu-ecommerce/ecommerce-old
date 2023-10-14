@@ -5,10 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Order;
+use LaravelEnso\Tables\Traits\TableCache;
 
 class Invoice extends Model
 {
-    use HasFactory;
+    use HasFactory, TableCache;
 
     protected $table = 'invoices';
 

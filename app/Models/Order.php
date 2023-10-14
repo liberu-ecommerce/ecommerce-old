@@ -4,10 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use LaravelEnso\Tables\Traits\TableCache;
 
 class Order extends Model
 {
-    use HasFactory;
+    use HasFactory, TableCache;
 
     protected $table = 'orders';
 
@@ -19,8 +20,8 @@ class Order extends Model
         'shipping_status',
     ];
 
-    public function customers()
+    public function customer(): \Illuminate\Database\Eloquent\Relations\BelongsTo
     {
-        return $this->belongsTo(Customers::class);
+        return $this->belongsTo(Customer::class);
     }
 }

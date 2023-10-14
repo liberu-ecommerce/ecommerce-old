@@ -16,7 +16,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('customer_id')->constrained();
             $table->foreignId('order_id')->constrained();
-            $table->timestamp('invoice_date');
+            $table->dateTime('invoice_date');
             $table->decimal('total_amount', 10, 2);
             $table->string('payment_status', 50); 
             $table->timestamps();

@@ -4,13 +4,15 @@ namespace App\Models;
 
 use App\Notifications\ResetPassword;
 use Illuminate\Auth\Passwords\CanResetPassword;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Laravel\Cashier\Billable;
 use LaravelEnso\Avatars\Models\Avatar;
+use LaravelEnso\Tables\Traits\TableCache;
 use LaravelEnso\Users\Models\User as CoreUser;
 
 class User extends CoreUser
 {
-    use Billable, CanResetPassword;
+    use Billable, CanResetPassword, HasFactory, TableCache;
     protected $fillable = [
         'name',
         'email',
@@ -21,12 +23,12 @@ class User extends CoreUser
         'is_active',
     ];
 
-    public function social()
+    public function socials(): \Illuminate\Database\Eloquent\Relations\HasMany
     {
         return $this->hasMany(UserSocial::class, 'user_id', 'id');
     }
 
-    public function avatar()
+    public function avatar(): \Illuminate\Database\Eloquent\Relations\HasOne
     {
         return $this->hasOne(Avatar::class, 'user_id', 'id');
     }
@@ -38,20 +40,22 @@ class User extends CoreUser
 
     public function hasSocialLinked($service): bool
     {
-        return (bool) $this->social->where('service', $service)->count();
+        return (bool) $this->socials->where('service', $service)->count();
     }
 
-    public function messages()
+    //models not created yet
+    //TODO: create the various models before uncommenting this code
+    /*public function messages(): \Illuminate\Database\Eloquent\Relations\HasMany
     {
         return $this->hasMany(Message::class);
     }
 
-    public function convOne()
+    public function convOne(): \Illuminate\Database\Eloquent\Relations\BelongsTo
     {
         return $this->belongsTo(Conversation::class, 'user_one');
     }
 
-    public function convTwo()
+    public function convTwo(): \Illuminate\Database\Eloquent\Relations\BelongsTo
     {
         return $this->belongsTo(Conversation::class, 'user_two');
     }
@@ -59,7 +63,7 @@ class User extends CoreUser
     public function conversations()
     {
         return $this->convOne->merage($this->convTwo);
-    }
+    }*/
 
     public function sendPasswordResetNotification($token)
     {

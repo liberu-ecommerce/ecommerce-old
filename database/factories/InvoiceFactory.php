@@ -16,12 +16,17 @@ class InvoiceFactory extends Factory
      */
     public function definition(): array
     {
+        $paymentStatus = array(
+            'paid',
+            'unpaid',
+        );
+        $statusKey = array_rand($paymentStatus);
         return [
-            'customer_id' => $this->faker->numberBetween(1, 50),
-            'order_id' => $this->faker->numberBetween(1, 50),
-            'invoice_date' => $this->faker->dateTime(),
+            'customer_id' => $this->faker->numberBetween(1, 10),
+            'order_id' => $this->faker->numberBetween(1, 10),
             'total_amount' => $this->faker->numberBetween(10, 500),
-            'payment_status' => $this->faker->numberBetween(1, 2),
+            'invoice_date' => $this->faker->dateTime->format('Y-m-d H:i:s'),
+            'payment_status' => $paymentStatus[$statusKey],
         ];
     }
 }

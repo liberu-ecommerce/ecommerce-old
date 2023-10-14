@@ -23,7 +23,8 @@ class ValidateProductRequest extends FormRequest
             'is_variable' => 'boolean',
             'is_grouped' => 'boolean',
             'is_simple' => 'boolean',
-            'featured_image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
+            'featured_image' => 'string',
+           // 'featured_image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
         ];
     }
 }

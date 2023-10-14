@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Order\Admin;
 
 use App\Models\Order;
+use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use LaravelEnso\Select\Traits\OptionsBuilder;
 
@@ -12,10 +13,10 @@ class Options extends Controller
 
     protected string $model = Order::class;
 
-    protected $queryAttributes = ['subm'];
+    protected array $queryAttributes = ['payment_status'];
 
-    //public function query(Request $request)
-    //{
-    //    return Order::query();
-    //}
+    /*public function query(Request $request)
+    {
+        return Order::query();
+    }*/
 }

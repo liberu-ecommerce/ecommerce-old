@@ -7,49 +7,49 @@
         {
             "label": "Id",
             "name": "id",
-            "data": "customers.id",
+            "data": "customer.id",
             "meta": ["searchable", "sortable"]
         },
         {
             "label": "First Name",
             "name": "first_name",
-            "data": "customers.first_name",
+            "data": "customer.first_name",
             "meta": ["searchable", "sortable"]
         },
         {
             "label": "Last Name",
             "name": "last_name",
-            "data": "customers.last_name",
+            "data": "customer.last_name",
             "meta": ["searchable", "sortable"]
         },
         {
             "label": "Email",
             "name": "email",
-            "data": "customers.email",
+            "data": "customer.email",
             "meta": ["searchable", "sortable"]
         },
         {
             "label": "Address",
             "name": "address",
-            "data": "customers.address",
+            "data": "customer.address",
             "meta": ["searchable", "sortable"]
         },
         {
             "label": "City",
             "name": "city",
-            "data": "customers.city",
+            "data": "customer.city",
             "meta": ["searchable", "sortable"]
         },
         {
             "label": "State",
             "name": "state",
-            "data": "customers.state",
+            "data": "customer.state",
             "meta": ["searchable", "sortable"]
         },
         {
             "label": "Postal Code",
             "name": "postal_code",
-            "data": "customers.postal_code",
+            "data": "customer.postal_code",
             "meta": ["searchable", "sortable"]
         }
     ]

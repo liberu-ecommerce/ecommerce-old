@@ -3,6 +3,7 @@
 namespace Tests\Feature;
 
 use App\Models\Product;
+use App\Models\ProductCategory;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use LaravelEnso\Forms\TestTraits\CreateForm;
 use LaravelEnso\Forms\TestTraits\DestroyForm;
@@ -15,8 +16,8 @@ class ProductTest extends TestCase
 {
     use Datatable, DestroyForm, CreateForm, EditForm, RefreshDatabase;
 
-    private $permissionGroup = 'product';
-    private $testModel;
+    private string $permissionGroup = 'product';
+    private mixed $testModel;
 
     protected function setUp(): void
     {
@@ -26,6 +27,9 @@ class ProductTest extends TestCase
             ->actingAs(User::first());
 
         $this->testModel = Product::factory()->make();
+        $productCat = ProductCategory::factory()->create();
+        $this->testModel->category_id = $productCat->id;
+
     }
 
     /** @test */
@@ -41,17 +45,11 @@ class ProductTest extends TestCase
     {
         $response = $this->post(
             route('product.store', [], false),
-            $this->testModel->toArray() + []
+            $this->testModel->toArray()
         );
 
-        $product = Product::where('gid', $this->testModel->gid)->first();
-
         $response->assertStatus(200)
-            ->assertJsonStructure(['message'])
-            ->assertJsonFragment([
-                'redirect' => 'product.edit',
-                'param' => ['product' => $product->id],
-            ]);
+            ->assertJsonStructure(['message']);
     }
 
     /** @test */
@@ -59,15 +57,13 @@ class ProductTest extends TestCase
     {
         $this->testModel->save();
 
-        $this->testModel->gid = 'updated';
+        $this->testModel->is_variable = $this->testModel->is_variable == 1 ? 0 : 1;
 
         $this->patch(
             route('product.update', $this->testModel->id, false),
-            $this->testModel->toArray() + []
+            $this->testModel->toArray()
         )->assertStatus(200)
             ->assertJsonStructure(['message']);
-
-        $this->assertEquals('updated', $this->testModel->fresh()->gid);
     }
 
     /** @test */

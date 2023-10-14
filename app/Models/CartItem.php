@@ -4,9 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use LaravelEnso\Tables\Traits\TableCache;
 
 class CartItem extends Model
 {
+    use HasFactory, TableCache;
    
     protected $table = 'cart_items';
 
@@ -17,7 +19,7 @@ class CartItem extends Model
         'price',
     ];
 
-    public function products()
+    public function product(): \Illuminate\Database\Eloquent\Relations\BelongsTo
     {
         return $this->belongsTo(Product::class);
     }

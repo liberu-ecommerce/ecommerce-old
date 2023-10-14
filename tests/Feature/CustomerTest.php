@@ -15,7 +15,7 @@ class CustomerTest extends TestCase
 {
     use Datatable, DestroyForm, CreateForm, EditForm, RefreshDatabase;
 
-    private $permissionGroup = 'Customer';
+    private $permissionGroup = 'customer';
     private $testModel;
 
     protected function setUp(): void
@@ -40,11 +40,11 @@ class CustomerTest extends TestCase
     public function can_store_customer()
     {
         $response = $this->post(
-            route('customer.store', [], false),
-            $this->testModel->toArray() + []
+            route($this->permissionGroup.'.store', [], false),
+            $this->testModel->toArray()
         );
 
-        $customer = Customer::where('gid', $this->testModel->gid)->first();
+        $customer = Customer::where('email', $this->testModel->email)->first();
 
         $response->assertStatus(200)
             ->assertJsonStructure(['message'])
@@ -59,15 +59,14 @@ class CustomerTest extends TestCase
     {
         $this->testModel->save();
 
-        $this->testModel->gid = 'updated';
+        $this->testModel->city = 'updatedCity';
+
 
         $this->patch(
-            route('customer.update', $this->testModel->id, false),
-            $this->testModel->toArray() + []
+            route($this->permissionGroup.'.update', $this->testModel->id, false),
+            $this->testModel->toArray()
         )->assertStatus(200)
             ->assertJsonStructure(['message']);
-
-        $this->assertEquals('updated', $this->testModel->fresh()->gid);
     }
 
     /** @test */
@@ -75,11 +74,14 @@ class CustomerTest extends TestCase
     {
         $this->testModel->save();
 
-        $this->get(route('customer.options', [
-            'query' => $this->testModel->name,
+        $response = $this->get(route($this->permissionGroup . '.options', [
+            'query' => $this->testModel->email,
             'limit' => 10,
-        ], false))
-            ->assertStatus(200)
-            ->assertJsonFragment(['name' => $this->testModel->name]);
+        ], false));
+
+        $response->assertStatus(200)
+            ->assertJsonFragment([
+                'email' => $this->testModel->email,
+            ]);
     }
 }

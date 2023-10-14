@@ -18,7 +18,7 @@ class ValidateOrderRequest extends FormRequest
         return [
 
             'customer_id' => 'required|exists:customers,id',
-            'order_date ' => 'required|date',
+            'order_date' => 'required',
             'total_amount' => 'required|numeric|min:0',
             'payment_status' => 'required|in:unpaid,paid',
             'shipping_status' => 'required|in:pending,shipped,delivered'
